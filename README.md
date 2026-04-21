@@ -6,7 +6,7 @@ An agentic support platform for the BTABoK practitioner across all four BTABoK m
 
 ## Status
 
-Pre-implementation. The founding design is in [WIP/Architect-Support-Agentic-Platform.md](WIP/Architect-Support-Agentic-Platform.md).
+Pre-implementation. The concept is introduced in [*The Architect and the Agent*](docs/theory/The-Architect-and-the-Agent.md). The platform's full architecture is captured in [WIP/Architect-Support-Agentic-Platform.md](WIP/Architect-Support-Agentic-Platform.md).
 
 ## Relationship to SpecChat
 
@@ -18,8 +18,10 @@ ASAP depends on [SpecChat](../spec-chat) and consumes its MCP server surface. Sp
 
 SpecChat ships independently and is unaware of ASAP. ASAP does not modify SpecLang.
 
-## Design documents
+## Documents
 
+- [*The Architect and the Agent*](docs/theory/The-Architect-and-the-Agent.md): the concept doc. Introduces ASAP as the third in the Realization Engine sequence (after *The Multiplier and the Mirror* and *Enquiry Into Specification as Meaningful Struggle*) and names the platform's authority gradient, model-coverage asymmetry, and judgment boundary.
+  - [Citations and references](docs/theory/The-Architect-and-the-Agent_Citations.md): companion to the concept doc.
 - [Architect Support Agentic Platform](WIP/Architect-Support-Agentic-Platform.md): the founding design. Covers framing, ten platform components, BTABoK-model-by-model support, HITL role architecture, and a six-wave delivery plan with a fork point at SpecChat GA exit.
 - [ASAP Acronym and Term Glossary](WIP/ASAP-Acronym-and-Term-Glossary.md): acronyms and terminology used across the ASAP corpus.
 
