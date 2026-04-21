@@ -1,4 +1,12 @@
-# The Architect and the Agent
+# Notes for *The Architect and the Agent*
+
+> **Status: preparatory notes.** This document is the analytical groundwork for an upcoming concept paper titled *The Architect and the Agent*. It organises the architecture-practice corollaries of *The Multiplier and the Mirror* section by section, derives the theoretical foundation for ASAP's design, and traces every load-bearing M&M concept into its operational form for enterprise architecture under LLM amplification.
+>
+> The document is comprehensive by design. The goal was to leave no aspect of the M&M framework unexamined for its applicability to architecture practice. Length and exhaustive coverage are features here, not flaws.
+>
+> The concept paper itself, distilled from these notes for an outside reader, is forthcoming. It will be tighter, more accessible, and shaped to introduce the ideas rather than to inventory them.
+
+---
 
 ## §1. Where this fits
 
@@ -304,4 +312,4 @@ The exemplar is not illustrative. It is the test, the bench, and the counter-exa
 
 ASAP is in design. The platform's architecture is captured in the [Platform Design document](https://github.com/Realization-Engine/asap/blob/main/WIP/Architect-Support-Agentic-Platform.md) in this repository, organized as ten primitives, four cross-cutting concerns, a lifecycle-by-primitive matrix, BTABoK model coverage by primitive, and a six-wave delivery plan. The first four waves are SpecChat deliverables: profile, enforcement, governance mechanics, and rendering. The last two waves, Value-and-People support and Competency support, ship from this repository as ASAP proper.
 
-The design is grounded in a direct read of the IASA BTABoK corpus and a section-by-section reading of *The Multiplier and the Mirror*. The lineage of arguments and the M&M sections that carry the paper's claims are recorded in the [Citations](The-Architect-and-the-Agent_Citations.md) document.
+The design is grounded in a direct read of the IASA BTABoK corpus and a section-by-section reading of *The Multiplier and the Mirror*. The lineage of arguments and the M&M sections that carry the paper's claims are recorded in the [companion citations notes](Notes-for-The-Architect-and-the-Agent_Citations.md).

@@ -1,8 +1,8 @@
-# Citations and references
+# Citations and references for the notes
 
-Companion to [*The Architect and the Agent*](The-Architect-and-the-Agent.md).
+> **Status: preparatory notes.** Companion to [*Notes for The Architect and the Agent*](Notes-for-The-Architect-and-the-Agent.md). This is the citations record for the analytical groundwork document. The corresponding citations for the eventual concept paper will be derived from this fuller list.
 
-This document organizes the source material the concept doc rests on. The references are grouped by their relationship to the argument: parent works in the Realization Engine sequence, the body of knowledge that organizes architecture practice, the companion artifacts that ground the platform's design, and the adjacent practice references the platform design document draws on.
+This document organizes the source material the notes draw on. The references are grouped by their relationship to the argument: parent works in the Realization Engine sequence, the body of knowledge that organizes architecture practice, the companion artifacts that ground the platform's design, and the adjacent practice references the platform design document draws on.
 
 ---
 
