@@ -12,23 +12,58 @@ The concept doc is the architectural-practice instantiation of *The Multiplier a
 
 **[P1]** Landi, Dennis. *The Multiplier and the Mirror.* The Realization Engine, 2026. <https://realizationengine.net/fstar/docs/The_Multiplier_and_the_Mirror.html>
 
-The foundational framework. Establishes that human capability (FORCE) scales through collaborative systems, and that those systems reshape the practitioners working inside them. The concept doc draws on the framework at unusual breadth; the M&M sections most load-bearing for this paper are listed below.
+The foundational framework. Establishes that human capability (FORCE) scales through collaborative systems, and that those systems reshape the practitioners working inside them. The concept doc draws on the framework at unusual breadth; the M&M sections most load-bearing for this paper are listed below in M&M's own section order.
 
-- *Mirror* and *Beyond the Force Multiplier* — the twin-channel asymmetry (substance vs. presentation) and the studio-mirror / Narcissus's-pool bifurcation. Carries §6 (the Mirror at two scales).
+*Part One — The Framework*
+
+- *Beyond the Force Multiplier* and *Mirror* — the twin-channel asymmetry (substance vs. presentation) and the studio-mirror / Narcissus's-pool bifurcation. Carries §6 (the Mirror at two scales).
 - *Force is Not a Number* — the multiplicative (Cobb-Douglas) composition of FORCE and the three-layer decomposition (surface / middle / deep). Carries §4 (mapping to BTABoK pillars and proficiency levels).
-- *The Tipping Point* and *Hysteresis* — F\* as a rising bifurcation point with asymmetric recovery cost. Carries the tier-relative analysis in §4 and the early-warning posture in §10.
 - *The Atrophy Problem* — the four pressures on FORCE (struggle gains, deliberate-engagement gains, passive-reliance decay, organizational disinvestment). Carries §7 (commitments derived per pressure).
+- *The Layered Decay* — surface decays without growth term; middle is the battleground; deep cannot be substituted; presentation projection masks limitations at depth. Carries §6 (institutional self-deception).
+- *The Tipping Point* and *Hysteresis* — F\* as a rising bifurcation point with asymmetric recovery cost. Carries the tier-relative analysis in §4 and the early-warning posture in §10.
 - *The Cohort Discontinuity* — the step-function distribution at cohort boundaries and the bidirectional collapse of tacit transmission. Carries §5.
 - *The Transfer: When FORCE Flows Into the Model* — F→M transfer efficiency by FORCE-layer, the transfer ceiling, the bus-factor illusion. Carries §9 (Knowledge Layer as deliberate, controlled F→M transfer).
-- *The Paradox of Successful Transfer* and *The Multiplier is Growing* — the data-quality spiral and the policy trap of nonlinearly compounding harms under linearly rising output. Carries §3 (urgency framing) and §13 (Global Corp as substance-preserved corpus).
+- *The Paradox of Successful Transfer* and *The Multiplier is Growing* — the data-quality spiral and the policy trap of nonlinearly compounding harms under linearly rising output. Carries §3 (urgency framing) and §19 (Global Corp as substance-preserved corpus).
+- *The Phase Portrait* (with Separatrix, Fixed Points, Irreversibility Frontier) — the (F, M) coupled-system geometry. Carries the framing of §3 and §14 (act before the irreversibility frontier).
+
+*Part Two — Ramifications*
+
 - *The Variable Multiplier* — domain-varying substance multiplier. Carries §8 (the authority gradient as a deduction from variable M_s across architectural work types).
-- *The Variance Amplifier* — variance growing as the multiplier squared, equal access amplifying spread. Carries §6 (Mirror exposure) and §7 (Accelerating Gap honest framing).
+- *The Variance Amplifier* — variance growing as the multiplier squared, equal access amplifying spread. Carries §6 (Mirror exposure) and §7 (Accelerating Gap framing).
 - *The Barbell Effect* — labor-market bifurcation; structural risk to the middle tier. Carries §7 (commitment 1).
-- *Creation Becomes Free. Evaluation Does Not.* — cost inversion and optimal-allocation paradox. Carries §9 (why Engagement Model receives the heaviest platform investment).
+- *Creation Becomes Free. Evaluation Does Not.* — cost inversion and optimal-allocation paradox. Carries §9 (why Engagement Model receives the heaviest platform investment) and §12 (decision bottleneck).
 - *When Force Goes Negative* — damage scaling once the typing governor is removed. Carries §8 (Enforce tier as negative-FORCE damage limiter).
+- *The Epistemic Corruption Problem* — gap between apparent and actual competence; atrophy invisible from inside. Carries §6.
 - *Tacit Knowledge: The Invisible Loss* — apprenticeship pipeline collapse via shared-work narrowing. Carries §10 (mentor-as-AI-backstage, AI-excluded judgment).
-- *The Cascade* — seven reinforcing feedback loops. Carries §11 (architecture-practice form of each loop and the platform's brakes).
-- *The ROI Paradox* and *The Legibility Crisis* — organizational-consequence sections. Carries §11 (ROI tension surfaced) and §8/§10 (legibility-restoration framing).
+- *The Accelerating Gap* — Matthew Effect; gap widens AND accelerates over time. Carries §7 (commitment 3 honest framing) and §11 (loop 5).
+- *The Cascade* — seven reinforcing feedback loops; few natural brakes. Carries §11 (architecture-practice form of each loop and the platform's brakes at each intersection).
+- *The ROI Paradox* — marginal gain proportional to existing FORCE; collides with evaluation requirement. Carries §11 (tension the platform reveals but cannot resolve).
+- *The Legibility Crisis* — organizations lose ability to distinguish substantive from polished hollow output; assessment must shift from output to process observation. Carries §6, §8 (legibility-restoration framing), §10 (HITL band visibility).
+- *Goodhart's Trap* — once a measure becomes a target, gameable via the presentation channel. Carries §6 (assessment-via-process-observation) and §8 (audit trail makes the gameable channel structurally separable from substance).
+- *The Decision Bottleneck* — decision speed as the new binding constraint after the Creation/Evaluation inversion. Carries §12 (architecture as the firm's decision-making discipline).
+- *The Erosion of Competitive Moats* — execution moats erode, judgment moats are amplified, decision-speed moats become decisive. Carries §12 (architecture practice as the firm's only durable moat substrate).
+- *The Meaning Problem* — motivation enters FORCE multiplicatively; autonomy loss accelerates motivation decay, which accelerates FORCE decay. Carries §10 (HITL bands as motivation-preservation, AI-excluded preserves agency).
+- *The Sovereignty Question* — workforce that has atrophied while relying on a foreign multiplier fails the resilience test (capability without M); three dependency channels (access, training-priority, talent-formation). Carries §13 (sovereignty at enterprise and profession levels).
+- *The Counter-Argument: LLMs as Floor-Raisers* — snapshot-vs-trajectory framing; floor-raising real on well-covered tasks at t=0; divergence on novel tasks and over time. Carries §3 (engaging the counter-argument fairly).
+- *The Inequality Accelerant* — same divergent dynamic at every scale: individuals, teams, firms, nations. Carries §11 (fractal scaling property; cascade loops have analogues at every level above the practitioner).
+- *Terminal Dynamics* — three regimes for the coupled (F, M) system: virtuous, managed decline, collapse spiral. Carries §14 (architecture-profession form of each).
+
+*Part Three — Response*
+
+- *So What Do We Do?* — the framework's eight prescriptions for organizations and practitioners. Carries §15, where the platform is read as the architecture-practice operationalization of each prescription.
+- *The Future of the Software Engineer* (scope note explicitly applies to any apprenticeship-bearing profession) and *The Ladder With No Lower Rungs / What Is a Junior Software Engineer? / What Does It Mean to Be a Software Engineer?* — the role-redefinition argument. Carries §5 (architecture-profession cohort discontinuity) and §16 (four futures).
+- *Four Futures* (Pilot model / Permanent bifurcation / Role dissolves / Return to specification) — the trajectories. Carries §16, including the platform's explicit bet on Future 1 plus Future 4.
+- *The Convergence* — S_available as the determining variable; window for choosing is finite. Carries §14 (act now framing).
+
+*Open Questions and Testable Predictions*
+
+- *Mirror Distortion and Conformity Pressure* — practitioners drift toward well-covered training domains. Carries §17.
+- *FORCE as a Commons* — supply-side competition vs demand-side commons problem; Ostrom-style institutional analysis as open question. Carries §13 and §17.
+- *Competitive Dynamics of Inter-Firm Transfer* — high-FORCE firms internalize the F→M loop. Carries §17.
+- *Mirror Dimensions and Atrophy* — diagnostic vs authoring use as testable hypothesis. Carries §17.
+- *The Education System Redesign Problem* — post-LLM curricular constraints. Carries §17.
+- *Team Composition Optimization* — Cobb-Douglas complementarity. Carries §17.
+- *Empirical Predictions* — seven falsifiable predictions; the platform creates measurement opportunity in the architecture domain. Carries §17.
 
 **[P2]** Landi, Dennis. *Enquiry Into Specification as Meaningful Struggle.* The Realization Engine, 2026. <https://realizationengine.net/spec-chat/docs/theory/Enquiry-Into-Specification-as-Meaningful-Struggle.html>
 
