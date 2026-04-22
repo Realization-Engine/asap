@@ -156,7 +156,7 @@ The product fork at the end of Wave 4 is the structural reflection of the paper'
 
 ## Global Corp
 
-The platform's design becomes concrete against a worked enterprise. Global Corp is a fictional global supply-chain company specified completely in BTABoK terms: a strategic thesis with named objectives, a portfolio of capabilities and value streams, a multi-application architecture spec collection, a decision register, a waiver process, a view gallery, and the personas, architecturally significant requirements, and governance bodies that organize them. The narrative document and the formal spec collection live alongside each other in the SpecChat repository.
+The platform's design becomes concrete against a worked enterprise. [Global Corp](examples/global-corp/Global-Corp-Exemplar.html) is a fictional global supply-chain company specified completely in BTABoK terms: a strategic thesis with named objectives, a portfolio of capabilities and value streams, a multi-application architecture spec collection, a decision register, a waiver process, a view gallery, and the personas, architecturally significant requirements, and governance bodies that organize them. The narrative document lives in this repository alongside the paper; the formal spec collection lives in the sibling [spec-chat repository](https://github.com/Realization-Engine/spec-chat/tree/main/docs/examples/global-corp/) where SpecChat validators exercise it end-to-end.
 
 Global Corp serves three roles in the derivation.
 
