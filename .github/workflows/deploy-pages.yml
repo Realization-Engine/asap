@@ -1,9 +1,23 @@
 name: Deploy to GitHub Pages
 
+# We trigger on three events:
+#   1. push to main — normal CI deploy
+#   2. workflow_dispatch — manual runs from the UI or `gh workflow run`
+#   3. workflow_run on "pages build and deployment" completion —
+#      GitHub's Pages infrastructure auto-dispatches a Jekyll workflow
+#      ("pages build and deployment") on every push, which overwrites
+#      this workflow's output with plain Jekyll HTML. By re-dispatching
+#      this workflow after Jekyll completes, we guarantee this workflow's
+#      pandoc output is the last artifact deployed to Pages and therefore
+#      the version that ships.
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
