@@ -55,6 +55,7 @@ jobs:
       - name: Build site
         run: |
           mkdir -p site/docs/notes
+          mkdir -p site/docs/examples/global-corp
           mkdir -p site/css site/lib/katex/fonts
 
           # Copy static assets
@@ -116,6 +117,13 @@ jobs:
             [ -f "$md" ] && render_md "$md" "../.."
           done
 
+          # Publish: examples/global-corp as reference-style markdown (depth ../../..)
+          # The Global Corp Exemplar is long-form narrative documentation, not a paper,
+          # so it renders with docs.css rather than paper.css.
+          for md in docs/examples/global-corp/*.md; do
+            [ -f "$md" ] && render_md "$md" "../../.."
+          done
+
           # NOTE: WIP/ is intentionally not published. It is repo-only.
 
           # Add .nojekyll
@@ -157,6 +165,14 @@ jobs:
               <li>
                 <a href="The_Architect_and_the_Agent_Citations.html">Citations and references</a>
                 <p>Supporting citations for the whitepaper, with primary-source file paths for every BTABoK claim.</p>
+              </li>
+            </ul>
+
+            <h2>Worked example</h2>
+            <ul class="doc-list">
+              <li>
+                <a href="examples/global-corp/Global-Corp-Exemplar.html">Global Corp &mdash; Enterprise Architecture Exemplar</a>
+                <p>Long-form narrative describing a fictional BTABoK-complete enterprise specified completely: strategic thesis, portfolio of capabilities and value streams, decision register, waiver process, view gallery, personas, ASRs, and governance bodies. The worked enterprise against which ASAP components are designed and tested, and the bench against which A&amp;A's Part Three derivations are exercised. The machine-processable SpecChat spec collection that accompanies this narrative lives in the sibling <a href="https://github.com/Realization-Engine/spec-chat/tree/main/docs/examples/global-corp/">spec-chat repository</a>.</p>
               </li>
             </ul>
 
