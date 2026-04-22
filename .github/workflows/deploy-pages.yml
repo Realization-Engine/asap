@@ -71,6 +71,9 @@ jobs:
 
           # Render a literary-journal paper (variant-B template, paper.css).
           # Reads paper metadata (title, author, version, etc.) from YAML frontmatter.
+          # Body heading levels are shifted down by one so the template hero owns
+          # the document's single H1 and authored "# Part One" style headings
+          # become H2 sections without source edits (matches fstar's treatment).
           render_paper() {
             local src="$1"
             local depth="$2"
@@ -80,11 +83,12 @@ jobs:
             pandoc "$src" \
               --standalone \
               --template=docs/assets/template.html \
+              --shift-heading-level-by=1 \
               --css "${depth}/css/paper.css" \
               --css "${depth}/lib/katex/katex.min.css" \
               --katex="${depth}/lib/katex/" \
               --lua-filter=/tmp/mermaid.lua \
-              --variable header-includes='<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:true});</script>' \
+              --variable header-includes='<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:true});</script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body,{delimiters:[{left:&quot;$$&quot;,right:&quot;$$&quot;,display:true},{left:&quot;$&quot;,right:&quot;$&quot;,display:false},{left:&quot;\\(&quot;,right:&quot;\\)&quot;,display:false},{left:&quot;\\[&quot;,right:&quot;\\]&quot;,display:true}],throwOnError:false});"></script>' \
               -o "$out"
           }
 
