@@ -34,7 +34,7 @@ Subsequent revisions of this document will update cross-references, move ASAP-sp
 
 This document defines a complete agentic support platform for an architecture practitioner working within the BTABoK.
 
-The platform serves the practitioner across **all four BTABoK models**: Engagement, Value, People, and Competency. Engagement Model support is backed by SpecChat's in-scope BTABOK profile and its validators. Value, People, and Competency Model support is delivered agentically through the advisory, knowledge, and automation layers of ASAP, without extending the SpecLang profile boundary.
+The platform serves the practitioner across **four of the BTABoK's working models**: Engagement, Value, People, and Competency. These four are selected from the larger set the body of knowledge names (Outcome, Operating, Value, People, Engagement, Competency, Maturity, per `get_started_m.md`) because they are the working models where the practicing architect does cadence work with FORCE at stake under LLM amplification. Engagement Model support is backed by SpecChat's in-scope BTABOK profile and its validators. Value, People, and Competency Model support is delivered agentically through the advisory, knowledge, and automation layers of ASAP, without extending the SpecLang profile boundary. The remaining BTABoK models (Outcome, Operating, Maturity) are either macro framings the Engagement Model instantiates, or measurement frames that run across the others, and are out of scope for direct platform features.
 
 The scope discipline of [BTABOK-Out-of-Scope-Models.md](../../spec-chat/WIP/BTABOK-Out-of-Scope-Models.md) is preserved. The three out-of-profile models are out of scope for the **SpecLang profile**. They are **in scope for ASAP**. The distinction is load-bearing. Profile extension adds validators, concept types, and schema enforcement to a spec collection. Platform support adds agentic guidance, retrieval, orchestration, and automation around a practitioner's work without modifying the spec language.
 
@@ -71,9 +71,9 @@ A complete agentic platform is best understood as a cube across three axes.
 **Axis C. BTABoK model coverage.** Four models, each with a distinct agentic signature:
 
 1. **Engagement Model.** Spec-authoring heavy. Profile-backed. Enforcement available. Organizes the six-stage Architecture Development Life Cycle (ADLC).
-2. **Value Model.** Planning, portfolio, and outcome heavy. Interwoven with Engagement in BTABoK's own framing ("the engagement model is the how, the value model is the why"). Advisory only.
+2. **Value Model.** Planning, portfolio, and outcome heavy. Interwoven with Engagement in BTABoK's own treatment, with Engagement carrying the execution side and Value carrying the outcome and measurement side. Advisory only.
 3. **People Model.** Team, role, community, and managed-career-path heavy. Integration-heavy (directory, HR). Privacy-bounded. Advisory only.
-4. **Competency Model.** Taxonomy of nine pillars and five proficiency levels. Knowledge-retrieval heavy. Advisory only.
+4. **Competency Model.** Taxonomy of five pillars, five BIISS specializations, and five proficiency levels. Knowledge-retrieval heavy. Advisory only.
 
 Every platform feature sits in a cell of this cube. Section 6 lays out the lifecycle-by-primitive matrix. Section 7 walks through each model's agentic surface using BTABoK's own vocabulary.
 
@@ -110,7 +110,7 @@ Proposed, Value-aligned: `compute_benefits_dependency`, `score_tech_debt_portfol
 
 Proposed, People-aligned: `compute_role_coverage`, `list_governance_body_members`, `summarize_team_topology`, `check_mentoring_coverage`, `compute_rotation_status`.
 
-Proposed, Competency-aligned: `list_competency_areas` (across the 9 pillars and 80-plus areas), `assess_team_coverage`, `map_cita_path` (across the 4 certifications Foundation, Associate, Professional, Distinguished), `compute_proficiency_gap` (against the 5 proficiency levels).
+Proposed, Competency-aligned: `list_competency_areas` (across the 5 pillars, 5 BIISS specializations, and 80-plus areas), `assess_team_coverage`, `map_cita_path` (across the 4 certifications Foundation, Associate, Professional, Distinguished), `compute_proficiency_gap` (against the 5 proficiency levels).
 
 Authority tier: Inform as queries, Enforce when wired through hooks.
 
@@ -129,7 +129,7 @@ Authority tier: Enforce.
 
 ### 4.3 Automation layer (scheduled tasks)
 
-BTABoK is calendrical. Scheduled tasks own the calendar across all four models.
+BTABoK is calendrical. Scheduled tasks own the calendar across the four working models the platform covers.
 
 Engagement-aligned:
 - Nightly freshness SLA sweep.
@@ -190,7 +190,7 @@ Engagement-aligned:
 - **Drift detector** compares spec assertions against runtime telemetry and code.
 - **Decision scribe** turns a meeting transcript into a DecisionRecord draft with explicit options, consequences, reversibility. Invokes the Decision Bias Calibrator step before finalizing.
 - **Roadmap planner** proposes TransitionArchitecture steps between a baseline and a target.
-- **ADLC stage coach** helps a practitioner enter or exit any of the six ADLC stages (Innovate, Strategy, Plan, Transform, Utilize-Measure, Decommission) using the matching BTABoK canvases.
+- **ADLC stage coach** helps a practitioner enter or exit any of the six ADLC stages (Innovation Cycle, Strategy, Planning, Transformation, Utilize and Measure, Decommissioning, per `architecture_lifecycle.md`) using the matching BTABoK canvases.
 
 Value-aligned:
 - **Benefits-realization modeler** drafts a benefits-dependency network from a strategic goal.
@@ -208,7 +208,7 @@ People-aligned:
 - **Culture diagnostic runner** applies the Westrum Culture Diagnostic and Culture Map to a team.
 
 Competency-aligned:
-- **Competency self-assessment coach** walks a practitioner through self-rating across the nine pillars.
+- **Competency self-assessment coach** walks a practitioner through self-rating across the five pillars and their chosen BIISS specialization.
 - **Certification path planner** maps a practitioner's current level to a CITA progression plan (Foundation, Associate, Professional, Distinguished).
 - **Team capability-gap analyzer** aggregates individual competency data into team gap analysis, with privacy controls.
 - **Architect Skills Gap Analysis runner** uses the BTABoK canvas of the same name.
@@ -256,7 +256,7 @@ People-aligned:
 - `spec-extended-team` guide for non-titled practitioners doing architecture work.
 
 Competency-aligned:
-- `spec-competency` competency-model navigator across the nine pillars.
+- `spec-competency` competency-model navigator across the five pillars and BIISS specializations.
 - `spec-cita-prep` CITA certification preparation guide for each of the four levels.
 - `spec-learning-plan` personal learning plan guide.
 
@@ -288,7 +288,7 @@ People-aligned:
 - Mentoring network graph.
 
 Competency-aligned:
-- Competency radar across the nine pillars.
+- Competency radar across the five pillars and BIISS specializations.
 - Team capability heatmap against role requirements.
 - CITA progression timeline.
 - Proficiency matrix at the five levels.
@@ -302,7 +302,7 @@ The highest-leverage investment for out-of-profile model support. Separate index
 - **Engagement index.** IASA Engagement Model pages, SpecChat design docs, glossary, decisions record, ADLC material.
 - **Value index.** IASA Value Model pages, benefits-dependency and value-stream literature, Technical Debt Ratio references, RVM material.
 - **People index.** IASA People Model pages, team topologies literature, community-of-practice literature, Westrum and culture diagnostic material.
-- **Competency index.** IASA Competency Model pages (nine pillars, 80-plus areas), SFIA plus, TOGAF Skills Framework, European e-CF, CITA levels.
+- **Competency index.** IASA Competency Model pages (five pillars, five BIISS specializations, 80-plus areas across both), SFIA plus, TOGAF Skills Framework, European e-CF, CITA levels.
 - **Canvas index.** IASA structured canvas catalog covering all 75-plus canvases. Cross-references every canvas to its competency pillar links (BTABoK canvases explicitly map back to competencies).
 - **Topics index.** IASA topic-area pages. Shallow by BTABoK's own design, used for awareness rather than deep guidance.
 - **Prior-art index.** Cross-collection DecisionRecord repository.
@@ -399,7 +399,7 @@ Each model is served by a distinct mix of the ten primitives. This section uses 
 
 Status: in scope for the BTABoK profile. Fully supported across all four authority tiers.
 
-BTABoK framing. The Engagement Model is the operating framework that describes how architecture practices execute work across the full lifecycle. Its core workflow is the **Architecture Development Life Cycle (ADLC)** with six iterative stages: **Innovate, Strategy, Plan, Transform, Utilize and Measure, Decommission**. The practice of architecture in BTABoK's own words is outcomes-focused ("the outcome of the work is more important than the method of achieving that outcome") and customer-obsessed ("Stop Doing Architecture, Start Digitally Enhancing Your Customer").
+BTABoK framing. The Engagement Model is the operating framework that describes how architecture practices execute work across the full lifecycle. Its core workflow is the **Architecture Development Life Cycle (ADLC)** with six iterative stages per `architecture_lifecycle.md`: **Innovation Cycle, Strategy, Planning, Transformation, Utilize and Measure, Decommissioning**. The practice of architecture in BTABoK's own words is outcomes-focused ("the outcome of the work is more important than the method of achieving that outcome", from `engagement.md`) and customer-obsessed ("Stop Doing Architecture, Start Digitally Enhancing Your Customer", the principle heading in `engagement.md`).
 
 Characteristic work. ADLC stage entry and exit; architecturally significant decisions (ASDs) with traceability; ASR cards; waiver chains; governance bodies operating as a spectrum from lightweight mentoring to rigorous Tier 1 review; principles as 8-12 memorable guardrails; viewpoint cards; transition architectures; roadmaps.
 
@@ -420,7 +420,7 @@ Delivery dependency. [SpecChat-BTABOK-Implementation-Plan.md](../../spec-chat/WI
 
 Status: out of profile, in platform. Advisory and Inform tiers only.
 
-BTABoK framing. Value Model is interwoven with Engagement. The platform reflects this: Value features often run adjacent to Engagement features rather than in separate sessions. BTABoK puts it plainly: "the engagement model is the how, the value model is the why."
+BTABoK framing. Value Model is interwoven with Engagement. The platform reflects this: Value features often run adjacent to Engagement features rather than in separate sessions. A useful characterization of the split: Engagement carries how the architect executes work across the lifecycle; Value carries why the work was undertaken and whether benefits are realized. The characterization is ours, not a direct BTABoK quotation; the underlying interweaving is BTABoK's own.
 
 Characteristic work. Objectives as SMART key results; investment planning with demand shaping; tech-debt portfolios measured by **Technical Debt Ratio** (Remediation plus Maintenance over Development times 100, managed as a healthy payback schedule); value streams; **Rapid Value Management** with three tiered indicators (early validation 30-90 days, leading 91 days to one year, lagging at end-state); principles as value-driven guardrails; risk methods; structural complexity analysis.
 
@@ -443,7 +443,7 @@ Status: out of profile, in platform. Advisory and Inform tiers only. Privacy-bou
 
 BTABoK framing. The People Model defines the structure, reporting, and administration of the group of internal architects, extended team members, and external influences shaping an architecture practice. It treats architecture as a profession requiring external competency validation, not merely employer-defined roles.
 
-Characteristic work. Organization (federated, centralized, value-stream); **BIISS specializations** (Business, Information, Infrastructure, Software, plus Solution as generalist); **managed career path** across six levels (Aspiring, Foundation, Associate, Professional, Distinguished, Chief); extended team (non-titled practitioners doing architecture work); mentoring as required for Professional-plus progression; community of practice; culture (Westrum Culture Diagnostic, Culture Map); role definitions; mindset.
+Characteristic work. Organization (federated, centralized, value-stream); **BIISS specializations** (Business, Information, Infrastructure, Software, Solution, with the last as generalist); **managed career path** across six levels (Aspiring, Foundational, Associate, Professional, Distinguished, Chief) per `career.md`; extended team (non-titled practitioners doing architecture work); mentoring required at every critical career-path transition per the IASA Mentoring Method (`adopting_the_competency_model.md` line 155-156), with progressively deeper relationships at Professional and Distinguished; community of practice; culture (Westrum Culture Diagnostic, Culture Map); role definitions; mindset.
 
 Primary primitives. Skills (`spec-people`, `spec-team-topologies`, `spec-role-definition`, `spec-career-path`, `spec-mentoring`, `spec-extended-team`), subagents (team topology analyst, role coverage mapper, community health observer, mentoring matchmaker, culture diagnostic runner), directory and HR webhooks, scheduled tasks (team topology review, succession scan, governance rotation, architect rotation tracking, Engagement Model Steering Committee prompts), preview (team topology map, role coverage heatmap, governance composition, career progression ladder, mentoring network), RAG People index, MCP tools (`compute_role_coverage`, `list_governance_body_members`, `summarize_team_topology`, `check_mentoring_coverage`, `compute_rotation_status`).
 
@@ -465,20 +465,21 @@ Status: out of profile, in platform. Advisory and Inform tiers only. Strongly pr
 
 BTABoK framing. The Competency Model is the professional development substrate. Platform support for this model is **practitioner development**, not spec authoring. The separation is intentional and permanent.
 
-Structure:
-- **9 pillars**: Business Technology Strategy, Human Dynamics, Design, IT Environment, Quality Attributes, Business Architecture, Information Architecture, Infrastructure Architecture, Software Architecture.
-- **80-plus competency areas** distributed across the pillars.
-- **5 proficiency levels** (Awareness, Basic, Delivery, Experienced, Shaping), Bloom-aligned.
+Structure (from the BTABoK Manifesto and `competency.md`):
+- **5 pillars**: Business Technology Strategy, Human Dynamics, Design, Quality Attributes, IT Environment. Every architect shares these.
+- **5 BIISS specializations**: Business, Information, Infrastructure, Software, Solution (the last as a generalist), layered laterally on top of the five pillars.
+- **80-plus competency areas** distributed across the five pillars (42 core per `competency.md`) and the specialization tracks (additional areas per specialization).
+- **5 proficiency levels** (Awareness, Basic, Delivery, Experienced, Shaping), Bloom-aligned, per `competency.md` line 46-52.
 - **4 CITA certification levels** (Foundation, Associate, Professional, Distinguished). Note the asymmetry: proficiency levels count five, certifications count four. The platform preserves both.
-- **4 primary BIISS specializations plus Solution** as generalist, layered atop the nine pillars.
-- **360-degree assessment** via self, peer, mentor, and certification. All four methods are first-class.
+- **6-level managed career path** (Aspiring, Foundational, Associate, Professional, Distinguished, Chief) per `career.md`, distinct from the CITA certification ladder. Aspiring is pre-certification; Chief is post-Distinguished and recognized through demonstrated practice.
+- **360-degree assessment** via self, peer, mentor, and certification (per `adopting_the_competency_model.md` line 139). All four methods are first-class.
 
-Primary primitives. Skills (`spec-competency`, `spec-cita-prep`, `spec-learning-plan`), subagents (competency self-assessment coach, certification path planner, team capability-gap analyzer, Architect Skills Gap Analysis runner, peer-assessment orchestrator), RAG Competency index, scheduled tasks (quarterly capability scan, CITA maintenance prompts, certification expiry, mentoring checkpoints, annual learning-plan refresh), preview (competency radar across the nine pillars, team capability heatmap, CITA timeline, proficiency matrix), MCP tools (`list_competency_areas`, `assess_team_coverage`, `map_cita_path`, `compute_proficiency_gap`), HRIS integration webhook.
+Primary primitives. Skills (`spec-competency`, `spec-cita-prep`, `spec-learning-plan`), subagents (competency self-assessment coach, certification path planner, team capability-gap analyzer, Architect Skills Gap Analysis runner, peer-assessment orchestrator), RAG Competency index, scheduled tasks (quarterly capability scan, CITA maintenance prompts, certification expiry, mentoring checkpoints, annual learning-plan refresh), preview (competency radar across the five pillars and BIISS specializations, team capability heatmap, CITA timeline, proficiency matrix), MCP tools (`list_competency_areas`, `assess_team_coverage`, `map_cita_path`, `compute_proficiency_gap`), HRIS integration webhook.
 
 Named BTABoK workflows the platform automates:
-- **Self-assessment cycle**. Individual practitioner rates against the nine pillars and their areas.
+- **Self-assessment cycle**. Individual practitioner rates against the five pillars and their chosen BIISS specialization.
 - **Peer assessment cycle**. Peer scores the same areas, scoped by team trust.
-- **Mentor review cycle**. Mentor reviews demonstrated work products (required for Professional-plus progression).
+- **Mentor review cycle**. Mentor reviews demonstrated work products. Per `adopting_the_competency_model.md`, reviewed mentor outputs are required at every critical career-path transition; Professional and Distinguished levels require the deepest mentoring relationships (one-to-three years or longer, per `mentoring.md`).
 - **CITA path mapping**. Current level to target progression plan with maintenance hour tracking.
 - **Team capability-gap analysis**. Aggregated view suppressing identifying detail below the small-team threshold.
 
@@ -757,7 +758,7 @@ Each criterion has an owning metric and a baseline established in Wave 1.
 
 **[R4]** MCP Server Integration Design. [MCP-Server-Integration-Design.md](../../spec-chat/WIP/MCP-Server-Integration-Design.md). Existing MCP tools and planned additions.
 
-**[R5]** BTABOK Out of Scope Models. [BTABOK-Out-of-Scope-Models.md](../../spec-chat/WIP/BTABOK-Out-of-Scope-Models.md). The profile boundary this platform must respect while delivering platform-layer support for all four models.
+**[R5]** BTABOK Out of Scope Models. [BTABOK-Out-of-Scope-Models.md](../../spec-chat/WIP/BTABOK-Out-of-Scope-Models.md). The profile boundary this platform must respect while delivering platform-layer support for the four working models the platform covers.
 
 **[R6]** SpecChat Design Decisions Record. [SpecChat-Design-Decisions-Record.md](../../spec-chat/WIP/SpecChat-Design-Decisions-Record.md). Settled decisions including SD-ONEPROF.
 
@@ -765,7 +766,7 @@ Each criterion has an owning metric and a baseline established in Wave 1.
 
 **[R7a]** ASAP Acronym and Term Glossary. [ASAP-Acronym-and-Term-Glossary.md](ASAP-Acronym-and-Term-Glossary.md). Canonical for ASAP terminology.
 
-**[R8]** IASA Global. Business Technology Architecture Body of Knowledge (BTABoK). `https://iasa-global.github.io/btabok/`. Authoritative source for all four models.
+**[R8]** IASA Global. Business Technology Architecture Body of Knowledge (BTABoK). `https://iasa-global.github.io/btabok/`. Authoritative source for all BTABoK working models. The platform covers Engagement, Value, People, and Competency; the remaining working models (Outcome, Operating, Maturity) are out of platform scope.
 
 **[R9]** IASA Global. Engagement Model. Pages including `engagement.md`, `architecture_practice.md`, `architecture_lifecycle.md`, `decisions.md`, `governance_em.md`, `principles.md`, `stakeholders.md`, `roadmap.md`.
 
@@ -773,7 +774,7 @@ Each criterion has an owning metric and a baseline established in Wave 1.
 
 **[R11]** IASA Global. People Model content. Pages including `organization.md`, `roles.md`, `career.md`, `extended_team.md`, `community.md`, `competency.md`, `culture.md`, `mentoring.md`.
 
-**[R12]** IASA Global. Competency Model. `https://iasa-global.github.io/btabok/competency_model_m.html`. Nine pillars, 80-plus areas, five proficiency levels, four CITA certifications.
+**[R12]** IASA Global. Competency Model. `https://iasa-global.github.io/btabok/competency_model_m.html`. Five pillars and five BIISS specializations (per Manifesto and `competency.md`), 80-plus areas across both, five proficiency levels, four CITA certifications, six-level managed career path (Aspiring through Chief).
 
 **[R13]** IASA Global. Structured Canvases. `https://iasa-global.github.io/btabok/structured_canvases_m.html`. The 75-plus canvas library with competency cross-references.
 

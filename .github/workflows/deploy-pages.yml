@@ -1,0 +1,200 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Create mermaid Lua filter
+        run: |
+          cat > /tmp/mermaid.lua << 'LUAEOF'
+          function CodeBlock(block)
+            if block.classes[1] == "mermaid" then
+              return pandoc.RawBlock("html",
+                '<pre class="mermaid">\n' .. block.text .. '\n</pre>')
+            end
+          end
+          LUAEOF
+
+      - name: Build site
+        run: |
+          mkdir -p site/docs/notes
+          mkdir -p site/css site/lib/katex/fonts
+
+          # Copy static assets
+          cp docs/assets/css/docs.css site/css/
+          cp docs/assets/css/paper.css site/css/
+          cp docs/assets/lib/katex/katex.min.css site/lib/katex/
+          cp docs/assets/lib/katex/katex.min.js site/lib/katex/
+          cp docs/assets/lib/katex/fonts/*.woff2 site/lib/katex/fonts/
+
+          # Render a reference-style markdown file (sans-serif docs.css).
+          # Args: $1 = source md path (under docs/), $2 = relative depth for css/katex
+          render_md() {
+            local src="$1"
+            local depth="$2"
+            local rel="${src#docs/}"
+            local out="site/docs/${rel%.md}.html"
+            mkdir -p "$(dirname "$out")"
+            pandoc "$src" \
+              --standalone \
+              --metadata title="" \
+              --css "${depth}/css/docs.css" \
+              --css "${depth}/lib/katex/katex.min.css" \
+              --katex="${depth}/lib/katex/" \
+              --lua-filter=/tmp/mermaid.lua \
+              --variable header-includes='<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:true});</script>' \
+              -o "$out"
+          }
+
+          # Render a literary-journal paper (variant-B template, paper.css).
+          # Reads paper metadata (title, author, version, etc.) from YAML frontmatter.
+          render_paper() {
+            local src="$1"
+            local depth="$2"
+            local rel="${src#docs/}"
+            local out="site/docs/${rel%.md}.html"
+            mkdir -p "$(dirname "$out")"
+            pandoc "$src" \
+              --standalone \
+              --template=docs/assets/template.html \
+              --css "${depth}/css/paper.css" \
+              --css "${depth}/lib/katex/katex.min.css" \
+              --katex="${depth}/lib/katex/" \
+              --lua-filter=/tmp/mermaid.lua \
+              --variable header-includes='<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:true});</script>' \
+              -o "$out"
+          }
+
+          # Publish: paper root (The Architect and the Agent) as papers (depth ..)
+          for md in docs/*.md; do
+            [ -f "$md" ] && render_paper "$md" ".."
+          done
+
+          # Publish: notes as reference-style markdown (depth ../..)
+          for md in docs/notes/*.md; do
+            [ -f "$md" ] && render_md "$md" "../.."
+          done
+
+          # NOTE: WIP/ is intentionally not published. It is repo-only.
+
+          # Add .nojekyll
+          touch site/.nojekyll
+
+      - name: Create docs index page
+        run: |
+          cat > site/docs/index.html << 'HTMLEOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ASAP Documentation</title>
+            <link rel="stylesheet" href="../css/docs.css" />
+          </head>
+          <body>
+            <h1>ASAP Documentation</h1>
+
+            <h2>The Architect and the Agent</h2>
+            <p><em>A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the framework requires. Published in three parts.</em></p>
+            <ul class="doc-list">
+              <li>
+                <a href="The_Architect_and_the_Agent.html">The Architect and the Agent &mdash; Introduction</a>
+                <p>The paper's positioning in the Realization Engine series, the zoom-out from Engagement-Model work to the rest of architectural practice, the scaling claim the zoom-out tests, and ASAP as the engineering artifact the derivation names.</p>
+              </li>
+              <li>
+                <a href="The_Architect_and_the_Agent-Part-One.html">Part One &mdash; The Architect Under Amplification</a>
+                <p>The framework instantiated for architecture practice. Architecture as a calendrical practice, the Collapse of Execution in architectural work, the Mirror at two coupled scales, multi-form FORCE across the body of knowledge's pillars and specializations, the cohort discontinuity operating through the CITA ladder, and the three commitments the practice architecture must honor.</p>
+              </li>
+              <li>
+                <a href="The_Architect_and_the_Agent-Part-Two.html">Part Two &mdash; Ramifications in Architecture Practice</a>
+                <p>The seven loops of the framework's cascade, instantiated in architecture; the decision bottleneck and the architectural moats; variance amplification inside an architecture team; the legibility crisis and Goodhart's trap on CITA-layer assessment; sovereignty at the enterprise scale and at the profession scale.</p>
+              </li>
+              <li>
+                <a href="The_Architect_and_the_Agent-Part-Three.html">Part Three &mdash; The Practice Architecture</a>
+                <p>ASAP derived feature by feature from the framework: the authority gradient, the AI-suitability bands and safeguard patterns, the asymmetric coverage across the four working models A&amp;A selects from the body of knowledge, the ten primitives and the six-wave delivery, the stop-lines, the Global Corp worked example, the four futures for the architecture profession, the research agenda.</p>
+              </li>
+              <li>
+                <a href="The_Architect_and_the_Agent_Citations.html">Citations and references</a>
+                <p>Supporting citations for the whitepaper, with primary-source file paths for every BTABoK claim.</p>
+              </li>
+            </ul>
+
+            <h2>Preparatory notes</h2>
+            <ul class="doc-list">
+              <li>
+                <a href="notes/Notes-for-The-Architect-and-the-Agent.html">Notes for The Architect and the Agent</a>
+                <p>Analytical groundwork for the paper. Organizes the architecture-practice corollaries of the framework section by section and derives the theoretical foundation for ASAP's design. Superseded as the primary argumentative artifact by the paper itself; retained as preparatory reference.</p>
+              </li>
+              <li>
+                <a href="notes/Notes-for-The-Architect-and-the-Agent_Citations.html">Notes citations</a>
+                <p>Citations supporting the preparatory notes.</p>
+              </li>
+            </ul>
+
+            <h2>Related</h2>
+            <ul class="doc-list">
+              <li>
+                <a href="https://realizationengine.net/fstar/docs/The_Multiplier_and_the_Mirror.html">The Multiplier and the Mirror</a>
+                <p>The parent framework. Establishes the model of human capability under LLM amplification that A&amp;A instantiates for architecture practice.</p>
+              </li>
+              <li>
+                <a href="https://realizationengine.net/spec-chat/docs/theory/Enquiry-Into-Specification-as-Meaningful-Struggle.html">Enquiry Into Specification as Meaningful Struggle</a>
+                <p>The first companion memorandum, instantiating the framework at the specification medium for the software engineer. A&amp;A is the second instantiation and the first zoom-out.</p>
+              </li>
+            </ul>
+
+            <a class="back-link" href="https://github.com/Realization-Engine/asap">Back to repository</a>
+          </body>
+          </html>
+          HTMLEOF
+
+      - name: Create root redirect
+        run: |
+          cat > site/index.html << 'HTMLEOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="refresh" content="0;url=docs/" />
+            <title>ASAP</title>
+          </head>
+          <body>
+            <p>Redirecting to <a href="docs/">documentation</a>.</p>
+          </body>
+          </html>
+          HTMLEOF
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
