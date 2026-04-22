@@ -173,14 +173,14 @@ Global Corp.'s strategy is built on one premise:
 
 ## 6. Business Case (NABC)
 
-The Business Case is deliverable #1 in the Minimum Durable Deliverable Set (see section 24). It is structured using the NABC framing (Need, Approach, Benefits, Competition).
+The Business Case is deliverable #1 in the Minimum Durable Deliverable Set (see section 24). It is structured using the NABC framing per BTABoK: Needs, Approach, Benefits, Considerations (per `investment_planning.md`).
 
 | Element | Content |
 |---|---|
-| **Need** | Global manufacturers and retailers lose measurable revenue to supply-chain disruption, compliance gaps, and partner-integration rework. FSMA 204 and EU DPP raise the regulatory floor. Existing tools solve point problems but fragment across modes, regions, and data models. |
+| **Needs** | Global manufacturers and retailers lose measurable revenue to supply-chain disruption, compliance gaps, and partner-integration rework. FSMA 204 and EU DPP raise the regulatory floor. Existing tools solve point problems but fragment across modes, regions, and data models. |
 | **Approach** | Build a standards-first visibility and trust platform. Normalize events from all modes and partners into a canonical graph. Layer operational intelligence, compliance packs, and sustainability support on the graph. Preserve lineage to source evidence so every visible state is explainable. |
 | **Benefits** | Customer disruption detection time drops from hours to minutes. Partner onboarding effort drops 50% over 24 months through standards mediation. Compliance evidence turnaround drops from days to hours. Platform gross margin improves as integration costs flatten against customer growth. |
-| **Competition and alternatives** | In-house visibility teams at large shippers (high cost, low portability). Point-solution control towers (fragmented, no product-level traceability). General data platforms with logistics overlays (weak on event semantics, weak on regulatory packs). |
+| **Considerations** | Competitive landscape: in-house visibility teams at large shippers (high cost, low portability); point-solution control towers (fragmented, no product-level traceability); general data platforms with logistics overlays (weak on event semantics, weak on regulatory packs). Risks and constraints treated in the RiskCard catalog and the governance model. |
 | **Primary owner** | PER-05 Sven Lindqvist, CEO |
 | **Sponsor** | PER-06 Priya Raman, CFO |
 | **Review cadence** | Annual |
@@ -325,9 +325,9 @@ In CoDL terms, the Owner column corresponds to the `committer` field on each Pri
 
 ## 12. BTABOK Lifecycle Applied to Global Corp.
 
-BTABOK's Architecture Development Life Cycle spans innovation, strategy, planning, transformation, utilize-and-measure, and decommission. [R2]
+BTABoK's Architecture Development Life Cycle spans six iterative stages per `architecture_lifecycle.md`: Innovation Cycle, Strategy, Planning, Transformation, Utilize and Measure, and Decommissioning. [R2]
 
-### 12.1 Innovation
+### 12.1 Innovation Cycle
 - Identify new market needs such as DPP orchestration, multimodal ETA, and cold-chain analytics.
 - Evaluate customer pain signals and partner ecosystem shifts.
 - Track with Innovation Experiment Cards (section 13).
@@ -352,7 +352,7 @@ BTABOK's Architecture Development Life Cycle spans innovation, strategy, plannin
 - Refine decisions, standards, and patterns.
 - Retire underused artifacts and dead-end variants.
 
-### 12.6 Decommission
+### 12.6 Decommissioning
 - Retire obsolete partner protocols, regional components, and unneeded reports (section 29).
 - Preserve decision records and compliance evidence.
 - Migrate customers off deprecated interfaces.
