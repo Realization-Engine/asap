@@ -1,5 +1,16 @@
-# Global Corp. Enterprise Architecture
-## A Fictional BTABOK-Complete Enterprise Architecture for Global Supply Chain Tracking
+---
+title: "Global Corp. Enterprise Architecture"
+subtitle: "A fictional BTABOK-complete enterprise, specified end-to-end, and the worked bench for *The Architect and the Agent*."
+author: "Dennis A. Landi"
+version: "0.2.0"
+date: "2026-04-22"
+category: "Worked Example"
+folio: "Nº IV · b"
+project: "ASAP"
+source: "https://github.com/Realization-Engine/asap"
+prev-url: "../../The_Architect_and_the_Agent-Part-Three.html"
+prev-title: "Part Three, The Practice Architecture"
+---
 
 ## Status
 

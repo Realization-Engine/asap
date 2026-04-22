@@ -117,11 +117,13 @@ jobs:
             [ -f "$md" ] && render_md "$md" "../.."
           done
 
-          # Publish: examples/global-corp as reference-style markdown (depth ../../..)
-          # The Global Corp Exemplar is long-form narrative documentation, not a paper,
-          # so it renders with docs.css rather than paper.css.
+          # Publish: examples/global-corp as papers (depth ../../..)
+          # The Global Corp Exemplar carries the literary-journal chrome
+          # (frontispiece, topbar, colophon, paper-nav) so it matches the
+          # presentation of the A&A whitepaper parts it belongs alongside.
+          # Folio slot is Nº IV · b (Citations is Nº IV · a).
           for md in docs/examples/global-corp/*.md; do
-            [ -f "$md" ] && render_md "$md" "../../.."
+            [ -f "$md" ] && render_paper "$md" "../../.."
           done
 
           # NOTE: WIP/ is intentionally not published. It is repo-only.
