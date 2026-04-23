@@ -146,7 +146,7 @@ jobs:
             <h1>ASAP Documentation</h1>
 
             <h2>The Architect and the Agent</h2>
-            <p><em>A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the framework requires. Published in three parts.</em></p>
+            <p><em>A companion whitepaper to The Multiplier and the Mirror, on the architect's practice under LLM amplification and the amplification architecture the Multiplier-Mirror framework requires. Published in three parts.</em></p>
             <ul class="doc-list">
               <li>
                 <a href="The_Architect_and_the_Agent.html">The Architect and the Agent &mdash; Introduction</a>
@@ -158,7 +158,7 @@ jobs:
               </li>
               <li>
                 <a href="The_Architect_and_the_Agent-Part-Two.html">Part Two &mdash; Ramifications in Architecture Practice</a>
-                <p>The seven loops of the framework's cascade, instantiated in architecture; the decision bottleneck and the architectural moats; variance amplification inside an architecture team; the legibility crisis and Goodhart's trap on CITA-layer assessment; sovereignty at the enterprise scale and at the profession scale.</p>
+                <p>The seven loops of the framework's cascade, instantiated in architecture; the decision bottleneck and the architectural moats; variance amplification inside an architecture team; the SMB-architect and the three practice structures; the legibility crisis and Goodhart's trap on CITA-layer assessment; sovereignty at the enterprise scale and at the profession scale.</p>
               </li>
               <li>
                 <a href="The_Architect_and_the_Agent-Part-Three.html">Part Three &mdash; The Amplification Architecture</a>

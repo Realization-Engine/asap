@@ -1,6 +1,6 @@
 ---
 title: "The Architect and the Agent, Part One: The Architect Under Amplification"
-subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the amplification architecture the Multiplier-Mirror framework requires."
+subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the architect's practice under LLM amplification and the amplification architecture the Multiplier-Mirror framework requires."
 author: "Dennis A. Landi"
 version: "0.01"
 date: "2026-04-21"
@@ -411,6 +411,8 @@ The CITA ladder's defense against the substitution risk has always been the requ
   <line x1="40" y1="405" x2="860" y2="405" stroke="#999" stroke-width="1"/>
   <text x="450" y="423" font-family="sans-serif" font-size="11" font-style="italic" fill="#1a1a2e" text-anchor="middle">Eq. 32 predicts each successive cohort's FORCE ceiling descends. The clock is Cohort A's retirement curve.</text>
 </svg>
+
+The theoretical argument is supply-side, predicting a ceiling descent cohort by cohort. A demand-side observation from the profession's practice literature complements it: BTABoK's primary author (Preiss [5.3]) records that the growth segment of architectural demand sits in small and medium organizations that have not historically had access to architectural expertise and are now making consequential technology decisions without it. The cohort entering the profession under the Multiplier is likely to encounter the amplification architecture in the SMB practice structures Part Two treats under "The SMB-architect," not in Fortune 500 engagements. The CITA ladder's redesign, insofar as it reaches the incoming cohort, reaches them there.
 
 ---
 

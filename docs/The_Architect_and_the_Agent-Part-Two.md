@@ -1,6 +1,6 @@
 ---
 title: "The Architect and the Agent, Part Two: Ramifications in Architecture Practice"
-subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the amplification architecture the Multiplier-Mirror framework requires."
+subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the architect's practice under LLM amplification and the amplification architecture the Multiplier-Mirror framework requires."
 author: "Dennis A. Landi"
 version: "0.01"
 date: "2026-04-21"
@@ -429,6 +429,48 @@ ASAP Studio softens but cannot eliminate the concentration. The competency-cover
   <text x="450" y="402" font-family="sans-serif" font-size="11" font-style="italic" fill="#1a1a2e" text-anchor="middle">Eq. 28's three-way resource competition (building, reviewing, teaching the model) lands on the Distinguished.</text>
   <text x="450" y="419" font-family="sans-serif" font-size="10" font-style="italic" fill="#555" text-anchor="middle">ASAP Studio softens the concentration; it does not eliminate it.</text>
 </svg>
+
+---
+
+## The SMB-architect
+
+The preceding sections treat the architect under amplification in the practice structure that has carried most of the profession's cases to date: a practitioner embedded in a large organization, alongside other architects, inside a firm with its own governance, legal, compliance, and delivery scaffolding. That structure is not the profession's default, though it is the structure the profession's formal literature has most fully theorized. The amplification architecture the paper derives is not confined to it.
+
+### The practice structure
+
+Three practice structures exist under the framework.
+
+The **enterprise-embedded architect** is the structure the preceding sections have worked against. A practitioner is a member of an architectural function within a firm large enough to carry the function's fixed costs. Variance is buffered across the team. Stop-lines are carried by adjacent functions. Audit partners exist. The calendar of the profession, its ADLC stages, mentoring durations, and CITA milestones, unfolds inside an organization with the resources to host it.
+
+The **small architecture firm** is a team of a few practitioners, typically three to twelve, serving many client organizations in parallel. The firm carries internal scaffolding (peer review, joint engagement practices, a shared knowledge base, a mentoring structure), but none of its client organizations has an architectural function of its own for the firm to plug into. The firm is the practice. The engagement is the client's only architecture practice for the duration of the engagement.
+
+The **solo contract architect** is one practitioner serving one or more client organizations directly, without a firm to buffer the work. Every scaffolding layer the enterprise-embedded architect inherits passively is either imported by the practitioner personally or absent. The practitioner is the moat, the stop-line, the audit partner, and the mentor, all at once.
+
+The enterprise-embedded structure is not the profession's center of mass empirically. BTABoK's primary author (Preiss [5.3]) names the case directly: approximately 42% of small businesses report lacking the resources and expertise to successfully deploy the technology they are already using (Goldman Sachs survey); 96% plan to adopt new technology including AI (US Chamber of Commerce); approximately 98% of companies in markets like Canada qualify as small and medium. The small and medium organization is the default. The architectural expertise gap those organizations face is a demand side the enterprise-embedded structure has not served at volume and is not organized to. The small-firm and solo structures are the structures that can.
+
+### Amplification at SMB scale
+
+The framework's equations do not change across the three structures. The Mirror reflects presentation at the expense of substance whether the practitioner is one of forty or one of one. The Multiplier amplifies FORCE multiplicatively whether the practitioner is inside an enterprise boundary or not. The atrophy equation fires on low-FORCE routine work whether the work is authored inside a governance boundary or across seven unrelated client engagements in a quarter.
+
+What changes is concentration. Several of Part Two's dynamics concentrate rather than diffuse as the practice structure shrinks.
+
+The three moats are diffused across the enterprise's architectural function. In the small firm, three practitioners carry them collectively, and a single practitioner's drift affects the firm's entire surface. In the solo structure, the practitioner is the moat, unmediated; there is no firm to hide a slipping judgment inside. Amplification pressure lands on the practitioner's working week directly.
+
+The variance amplifier's geometry changes at small n. A ten-practitioner enterprise pyramid buffers one Distinguished's concentrating demand across multiple apprentices. In a three-practitioner firm, one Distinguished's review bandwidth is the firm's bandwidth; two Associates' progression depends entirely on that one mentor's attention; any shift in the pyramid's shape is material. In the solo structure, the Mirror at two scales is the only mirror present, with no colleague-mirror to cross-check against.
+
+Stop-lines require external codification inside the enterprise: a legal department, a risk function, a compliance officer. The enterprise-embedded architect inherits these as the context in which they practice. The small firm codifies stop-lines as partnership commitments, engagement-letter terms, and engagement-level refusal boundaries. The solo practitioner codifies stop-lines personally or not at all. The framework's prediction, that stop-lines the practitioner does not codify will be eroded under Multiplier pressure, fires most sharply where codification is a personal choice.
+
+Substance preservation is costly inside an enterprise and harder still outside one. The small firm can construct a cross-engagement audit trail and use it as a marketing asset: the firm's signature is the attributable architectural substance its principals own, across clients, over years. The solo practitioner who does not maintain such a trail cannot answer the resilience test (Eq. 24) when a client asks whether the practitioner's architectural capacity is owned or rented.
+
+Cohort formation differs most between SMB and enterprise. The enterprise carries its own apprenticeship pipeline with associated mentoring durations, rotation structures, and review cadences. The small firm's signature competence becomes apprenticeship formation: a firm whose principals cannot form CITA-ladder practitioners does not grow, because its practitioners do not grow. The solo structure resolves cohort formation only through cross-firm channels: IASA chapters, peer networks, CITA-board mentoring arrangements outside the engagement. The profession's transmission channels under amplification are not uniformly distributed across the three structures; the SMB structures depend on external channels the enterprise-embedded architect can treat as optional.
+
+### Implications for ASAP Studio
+
+Part Three derives ASAP Studio's four-working-model selection (Engagement, Value, People, Competency) from the Variable Multiplier's shape across working surfaces. The selection is not an enterprise-convenience choice. It is the minimum coverage a practitioner needs when the client has no internal practice to plug into. The Engagement Model carries the engagement itself, which at SMB scale is the whole practice interface. The Value Model carries benefits realization and technical-debt accounting, which at SMB scale is the practitioner's direct conversation with the client owner. The People Model carries mentoring and community signals the SMB practitioner needs from outside the engagement. The Competency Model carries the CITA-trajectory work the SMB practitioner must do personally because no internal function carries it for them.
+
+ASAP Studio's six-wave delivery compresses at SMB scale but does not change shape. A small firm adopts Engagement-Model and Value-Model features alongside SpecChat in Waves 4-5, does not require the full enterprise Operating-Model integration Wave 6 gestures at, and uses the audit trail as both governance substrate and professional differentiator. A solo practitioner runs a lighter deployment: ASAP Studio as a personal calendrical practice instrument, the audit trail as the practitioner's portable FORCE record across clients, the Knowledge Layer as the practitioner's own substance-preserved corpus. The derivation is unchanged; the intensities shift.
+
+The amplification architecture does not specify a minimum scale at which it is realizable. Part Three's stop-lines, authority gradient, and safeguard patterns apply across the three practice structures with parameter changes rather than categorical exceptions. The SMB structures are not scaled-down enterprise architecture. They are architecture at the profession's numerical center of mass, with the Multiplier's pressures concentrated where the enterprise structures had scaffolding to diffuse them.
 
 ---
 

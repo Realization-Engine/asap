@@ -162,6 +162,9 @@ Supporting Loop 3 (tacit-knowledge transmission collapse) and Loop 7 (cohort dis
 **[5.2]** Preiss, P. *BTABoK Career Path and Managed Profession Framing.* In `[2.14]`.
 **Digest:** The managed career path as the profession's alternative to role-based employment, grounded in research from Iasa's focus groups, 2000-plus surveys, 1000-plus interviews, 200-plus corporate assessments, and 4500-plus individual competency assessments. Load-bearing for this paper's claim that the CITA ladder's calibration depends on a development trajectory the LLM is absorbing.
 
+**[5.3]** Preiss, P. "Better Is Better: Why Architects Need to Stop Chasing Enterprise and Start Serving the World Around Them." LinkedIn post, 22 April 2026. `https://www.linkedin.com/posts/ppreiss_better-is-better-why-architects-need-to-activity-7452655010259181568-0oVr/`.
+**Digest:** Demand-side essay by BTABoK's primary author on the small-and-medium-business expertise gap and its implications for the architecture profession's growth segment. Cited in Part One's cohort-discontinuity section and in Part Two's "The SMB-architect" section as the empirical source for three figures: approximately 42% of small businesses lacking the resources and expertise to successfully deploy the technology they are already using (Goldman Sachs survey), 96% planning new-technology adoption including AI (US Chamber of Commerce), and approximately 98% of companies in markets like Canada qualifying as small and medium. Also cited for the forecast that the profession's numerical center of mass is in SMB engagements rather than Fortune 500 consulting, and for the framing that the small-architecture-firm and solo-contract-architect practice structures are the structures capable of serving the SMB demand at volume.
+
 ---
 
 ## 6. Automation, deskilling, and out-of-the-loop fragility

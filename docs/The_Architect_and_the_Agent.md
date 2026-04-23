@@ -1,6 +1,6 @@
 ---
 title: "The Architect and the Agent"
-subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the amplification architecture the Multiplier-Mirror framework requires."
+subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the architect's practice under LLM amplification and the amplification architecture the Multiplier-Mirror framework requires."
 author: "Dennis A. Landi"
 version: "0.01"
 date: "2026-04-21"
