@@ -1,6 +1,6 @@
 ---
 title: "The Architect and the Agent, Part One: The Architect Under Amplification"
-subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the framework requires."
+subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the Multiplier-Mirror framework requires."
 author: "Dennis A. Landi"
 version: "0.01"
 date: "2026-04-21"
@@ -18,7 +18,7 @@ next-title: "Part Two, Ramifications in Architecture Practice"
 
 ## Where this fits
 
-The Multiplier and the Mirror establishes the general framework for human capability under large-language-model amplification. Output is written as $O = M \times F$, where $M$ is the multiplier the model applies and $F$ is the practitioner's composite capability, called FORCE throughout. The paper's worked example is software engineering. Its scope note is explicit: any profession in which apprenticeship passes tacit knowledge through shared execution can be substituted for the engineer.
+The Multiplier and the Mirror establishes the **Multiplier-Mirror framework** (Folio Nº II), the general theory of human capability under large-language-model amplification. Output is written as $O = M \times F$, where $M$ is the multiplier the model applies and $F$ is the practitioner's composite capability, called FORCE throughout. The paper's worked example is software engineering. Its scope note is explicit: any profession in which apprenticeship passes tacit knowledge through shared execution can be substituted for the engineer.
 
 The Enquiry Into Specification as Meaningful Struggle is the framework's first substitution. It asks, for the software engineer specifically, whether specification work can carry the $\alpha \cdot S$ term (productive struggle) that implementation work historically carried, now that the multiplier has absorbed most of implementation. It answers within one profession, at one load-bearing medium, and names SpecChat as the specification artifact through which the substitution becomes operable.
 

@@ -16,7 +16,7 @@ This citations document supports *The Architect and the Agent* (folio Nº IV, th
 
 The three categories that carry most of the paper's weight:
 
-1. **The Realization Engine series**, the parent framework (M&M, folio Nº II) and the first companion memorandum (Enquiry, folio Nº III). A&A depends on both; every equation cited in the paper is cited by its M&M number.
+1. **The Realization Engine series**: the **Multiplier-Mirror framework** (M&M, folio Nº II, the parent work) and the first companion memorandum (Enquiry, folio Nº III). A&A depends on both; every equation cited in the paper is cited by its M&M number.
 2. **The IASA Business Technology Architecture Body of Knowledge (BTABoK) primary sources**, including the Manifesto and the specific engagement-model, competency-model, and career-path pages A&A instantiates the framework against. The paper's accuracy audit in development traced each architectural claim to a specific file path in the BTABoK repository; those file paths are listed here.
 3. **The engineering artifacts that operationalize the paper's derivation**: the ASAP platform design document, SpecChat (as upstream dependency), and the Global Corp exemplar (as bench and substance-preserved corpus).
 

@@ -8,7 +8,7 @@ This document organizes the source material the notes draw on. The references ar
 
 ## Parent works
 
-The concept doc is the architectural-practice instantiation of *The Multiplier and the Mirror*'s general framework, extended through the defense pattern named in the *Enquiry*. M&M's framework is explicit that its subject is human capability under LLM amplification across any knowledge profession, with software engineering as its primary worked example; this paper is another such instantiation.
+The concept doc is the architectural-practice instantiation of the **Multiplier-Mirror framework** (*The Multiplier and the Mirror*, Folio Nº II), extended through the defense pattern named in the *Enquiry*. M&M's framework is explicit that its subject is human capability under LLM amplification across any knowledge profession, with software engineering as its primary worked example; this paper is another such instantiation.
 
 **[P1]** Landi, Dennis. *The Multiplier and the Mirror.* The Realization Engine, 2026. <https://realizationengine.net/fstar/docs/The_Multiplier_and_the_Mirror.html>
 

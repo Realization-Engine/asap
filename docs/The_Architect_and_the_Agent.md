@@ -1,6 +1,6 @@
 ---
 title: "The Architect and the Agent"
-subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the framework requires."
+subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the Multiplier-Mirror framework requires."
 author: "Dennis A. Landi"
 version: "0.01"
 date: "2026-04-21"
@@ -12,7 +12,7 @@ source: "https://github.com/Realization-Engine/asap"
 
 # Introduction
 
-The Multiplier and the Mirror sets out a general framework for human capability under large-language-model amplification. The model is simple in statement and demanding in consequence. Output is the product of the multiplier and the practitioner's composite capability; the multiplier operates through a reflective relation with substance and presentation channels; the practitioner's capability is layered, cohort-dependent, and subject to a tipping point that sorts individuals, teams, firms, and nations onto diverging trajectories. The paper's worked example is software engineering. Its scope is general. Any profession in which apprenticeship passes tacit knowledge through shared execution can be substituted for the engineer.
+The Multiplier and the Mirror sets out the **Multiplier-Mirror framework** (Folio Nº II), a general theory of human capability under large-language-model amplification. The model is simple in statement and demanding in consequence. Output is the product of the multiplier and the practitioner's composite capability; the multiplier operates through a reflective relation with substance and presentation channels; the practitioner's capability is layered, cohort-dependent, and subject to a tipping point that sorts individuals, teams, firms, and nations onto diverging trajectories. The paper's worked example is software engineering. Its scope is general. Any profession in which apprenticeship passes tacit knowledge through shared execution can be substituted for the engineer.
 
 The Enquiry Into Specification as Meaningful Struggle is the framework's first substitution. It asks, for the software engineer specifically, whether specification work can carry the productive struggle the LLM has absorbed from implementation work. It identifies the medium where the struggle must be preserved, the division of labor the medium enforces, and the practice around the medium that resists cosmetic relocation. It instantiates the framework at one profession, at one load-bearing medium, and names the artifact (SpecChat) through which the instantiation becomes operable.
 

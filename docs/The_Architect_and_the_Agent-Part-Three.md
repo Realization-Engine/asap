@@ -1,6 +1,6 @@
 ---
 title: "The Architect and the Agent, Part Three: The Practice Architecture"
-subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the framework requires."
+subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the Multiplier-Mirror framework requires."
 author: "Dennis A. Landi"
 version: "0.01"
 date: "2026-04-21"
@@ -16,7 +16,7 @@ next-title: "Citations"
 
 # Part Three - The Practice Architecture
 
-Parts One and Two set up the question. Part Three answers it by deriving the practice architecture the framework requires for the enterprise architect, feature by feature, from the equations. The practice architecture is named ASAP. What follows is not a description of ASAP's feature list; the feature list is in the platform design document that sits alongside this paper. What follows is the derivation: which equation licenses which feature, which stop-line follows from which loop, which delivery ordering follows from which constraint. A reader who finishes Part Three should be able to reconstruct most of the platform design from first principles.
+Parts One and Two set up the question. Part Three answers it by deriving the practice architecture the **Multiplier-Mirror framework** (Folio Nº II) requires for the enterprise architect, feature by feature, from the equations. The practice architecture is named ASAP. What follows is not a description of ASAP's feature list; the feature list is in the platform design document that sits alongside this paper. What follows is the derivation: which equation licenses which feature, which stop-line follows from which loop, which delivery ordering follows from which constraint. A reader who finishes Part Three should be able to reconstruct most of the platform design from first principles.
 
 The derivation is organized in eight sections. The authority gradient derives from the Variable Multiplier. The AI-suitability bands and safeguard patterns derive from the atrophy equation read across FORCE-forms. The asymmetric coverage across the four working models derives from the Variable Multiplier's shape across working surfaces. The ten primitives derive from the practitioner's calendrical working surface. The stop-lines derive from the tacit-knowledge, hysteresis, legibility, and meaning loops operating jointly. The six-wave delivery and the SpecChat dependency derive from the zoom-out this paper has been building throughout. Global Corp operates as bench, test, and substance-preserved corpus. The four futures for the architecture profession close the arc, and the research agenda states what the platform makes empirically testable.
 

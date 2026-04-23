@@ -1,6 +1,6 @@
 ---
 title: "The Architect and the Agent, Part Two: Ramifications in Architecture Practice"
-subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the framework requires."
+subtitle: "A companion whitepaper to The Multiplier and the Mirror, on the enterprise architect's practice under LLM amplification and the agentic platform the Multiplier-Mirror framework requires."
 author: "Dennis A. Landi"
 version: "0.01"
 date: "2026-04-21"
@@ -16,7 +16,7 @@ next-title: "Part Three, The Practice Architecture"
 
 # Part Two - Ramifications in Architecture Practice
 
-Part One instantiated the framework for architecture practice and named three commitments the practice architecture must honor. Part Two works out the framework's ramifications in the architectural domain, using the seven-loop cascade as the structuring device, and shows how each loop produces a specific operational pressure on the profession. A note on the treatment throughout: each loop operates in all four working models the platform covers (Engagement, Value, People, Competency), but not identically. Inside the Engagement Model, where a formal specification medium (SpecChat) exists and where artifacts are validated by machine, the loop manifests through artifact-level dynamics that leave a trail, and brakes there can be formal. Inside Value, People, and Competency, where no formal medium underlies the work, the loop manifests through cadence-level dynamics that are visible only in aggregate pattern, and brakes there can only be agentic and advisory. The difference does not weaken the scaling claim. It confirms it: same mechanism, different surface, different brake. Each loop below is presented in both surfaces, so the scaling is legible at the loop level.
+Part One instantiated the **Multiplier-Mirror framework** (Folio Nº II) for architecture practice and named three commitments the practice architecture must honor. Part Two works out the framework's ramifications in the architectural domain, using the seven-loop cascade as the structuring device, and shows how each loop produces a specific operational pressure on the profession. A note on the treatment throughout: each loop operates in all four working models the platform covers (Engagement, Value, People, Competency), but not identically. Inside the Engagement Model, where a formal specification medium (SpecChat) exists and where artifacts are validated by machine, the loop manifests through artifact-level dynamics that leave a trail, and brakes there can be formal. Inside Value, People, and Competency, where no formal medium underlies the work, the loop manifests through cadence-level dynamics that are visible only in aggregate pattern, and brakes there can only be agentic and advisory. The difference does not weaken the scaling claim. It confirms it: same mechanism, different surface, different brake. Each loop below is presented in both surfaces, so the scaling is legible at the loop level.
 
 ---
 
