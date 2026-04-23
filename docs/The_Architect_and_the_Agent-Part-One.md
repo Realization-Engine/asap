@@ -66,6 +66,86 @@ For architecture practice the split maps cleanly. Canvas drafting, framework rec
 
 Two structural properties make architecture practice exceptionally exposed. The first is that almost every architectural deliverable is a textual or visual presentation form whose surface fluency the presentation channel produces excellently. The second is that stakeholder consumption is presentation-mediated. Architects are evaluated by how their artifacts read to executive sponsors, governance bodies, and review boards. The institutions that grant authority and funding consume artifacts, not the walks behind them. The presentation channel translates directly into perceived competence, which translates into authority, which translates into career progression. A profession whose authority flows through presentation-shaped artifacts is exposed to the presentation channel's decoupling from substance to an unusual degree.
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="100%" style="max-width:900px;display:block;margin:1.5em auto;" role="img" aria-labelledby="ce-t ce-d">
+  <title id="ce-t">The collapse of execution across the ADLC</title>
+  <desc id="ce-d">A six by three grid. Columns are the six ADLC stages (Innovation Cycle, Strategy, Planning, Transformation, Utilize and Measure, Decommissioning). Rows are the three FORCE layers: Surface at the top, Middle in the middle, Deep at the bottom. Each cell names the characteristic architectural work at that stage and layer. The Surface row is shaded red to indicate near-full LLM substitution. The Middle row is shaded amber to indicate partial substitution. The Deep row is shaded blue to indicate that the LLM cannot substitute. A footer states that the LLM absorbs the top row fully, the middle row partially, the bottom row barely; the artifact is produced, but the walk the typing used to force may or may not still happen.</desc>
+  <text x="192" y="65" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Innovation</text>
+  <text x="192" y="78" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Cycle</text>
+  <text x="317" y="65" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Strategy</text>
+  <text x="442" y="65" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Planning</text>
+  <text x="567" y="65" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Transformation</text>
+  <text x="692" y="65" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Utilize and</text>
+  <text x="692" y="78" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Measure</text>
+  <text x="817" y="65" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Decommis-</text>
+  <text x="817" y="78" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">sioning</text>
+  <rect x="130" y="85" width="750" height="80" fill="#d62828" fill-opacity="0.08" stroke="#d62828" stroke-width="1.2"/>
+  <text x="75" y="125" font-family="sans-serif" font-size="11" font-weight="700" fill="#d62828" text-anchor="middle">Surface</text>
+  <text x="75" y="140" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">LLM sub</text>
+  <text x="75" y="152" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">near full</text>
+  <line x1="255" y1="85" x2="255" y2="165" stroke="#fff" stroke-width="1"/>
+  <line x1="380" y1="85" x2="380" y2="165" stroke="#fff" stroke-width="1"/>
+  <line x1="505" y1="85" x2="505" y2="165" stroke="#fff" stroke-width="1"/>
+  <line x1="630" y1="85" x2="630" y2="165" stroke="#fff" stroke-width="1"/>
+  <line x1="755" y1="85" x2="755" y2="165" stroke="#fff" stroke-width="1"/>
+  <text x="192" y="117" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">trend scans,</text>
+  <text x="192" y="130" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">corpus retrieval</text>
+  <text x="317" y="117" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">framework recall,</text>
+  <text x="317" y="130" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">template drafts</text>
+  <text x="442" y="117" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">RACI tables,</text>
+  <text x="442" y="130" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">standard viewpoints</text>
+  <text x="567" y="117" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">migration scripts,</text>
+  <text x="567" y="130" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">rollout checklists</text>
+  <text x="692" y="117" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">scorecard projection,</text>
+  <text x="692" y="130" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">metric pulls</text>
+  <text x="817" y="117" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">dependency scans,</text>
+  <text x="817" y="130" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">shutdown checklists</text>
+  <rect x="130" y="165" width="750" height="80" fill="#d4a017" fill-opacity="0.10" stroke="#d4a017" stroke-width="1.2"/>
+  <text x="75" y="205" font-family="sans-serif" font-size="11" font-weight="700" fill="#d4a017" text-anchor="middle">Middle</text>
+  <text x="75" y="220" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">LLM sub</text>
+  <text x="75" y="232" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">partial</text>
+  <line x1="255" y1="165" x2="255" y2="245" stroke="#fff" stroke-width="1"/>
+  <line x1="380" y1="165" x2="380" y2="245" stroke="#fff" stroke-width="1"/>
+  <line x1="505" y1="165" x2="505" y2="245" stroke="#fff" stroke-width="1"/>
+  <line x1="630" y1="165" x2="630" y2="245" stroke="#fff" stroke-width="1"/>
+  <line x1="755" y1="165" x2="755" y2="245" stroke="#fff" stroke-width="1"/>
+  <text x="192" y="197" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">JTBD articulation,</text>
+  <text x="192" y="210" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">opportunity framing</text>
+  <text x="317" y="197" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">NABC business case,</text>
+  <text x="317" y="210" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">strategic thesis</text>
+  <text x="442" y="197" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">ADR drafting,</text>
+  <text x="442" y="210" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">transition architecture</text>
+  <text x="567" y="197" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">stakeholder coaching,</text>
+  <text x="567" y="210" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">exception handling</text>
+  <text x="692" y="197" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">benefits realization,</text>
+  <text x="692" y="210" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">KPI interpretation</text>
+  <text x="817" y="197" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">risk assessment,</text>
+  <text x="817" y="210" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">contract unwinding</text>
+  <rect x="130" y="245" width="750" height="80" fill="#3a86ff" fill-opacity="0.08" stroke="#3a86ff" stroke-width="1.2"/>
+  <text x="75" y="285" font-family="sans-serif" font-size="11" font-weight="700" fill="#3a86ff" text-anchor="middle">Deep</text>
+  <text x="75" y="300" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">LLM sub</text>
+  <text x="75" y="312" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">near none</text>
+  <line x1="255" y1="245" x2="255" y2="325" stroke="#fff" stroke-width="1"/>
+  <line x1="380" y1="245" x2="380" y2="325" stroke="#fff" stroke-width="1"/>
+  <line x1="505" y1="245" x2="505" y2="325" stroke="#fff" stroke-width="1"/>
+  <line x1="630" y1="245" x2="630" y2="325" stroke="#fff" stroke-width="1"/>
+  <line x1="755" y1="245" x2="755" y2="325" stroke="#fff" stroke-width="1"/>
+  <text x="192" y="277" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">novel architectural</text>
+  <text x="192" y="290" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">intuition</text>
+  <text x="317" y="277" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">cross-concern</text>
+  <text x="317" y="290" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">integration judgment</text>
+  <text x="442" y="277" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">architectural-</text>
+  <text x="442" y="290" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">significance adjudication</text>
+  <text x="567" y="277" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">judgment under</text>
+  <text x="567" y="290" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">real-world conflict</text>
+  <text x="692" y="277" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">felt sense of</text>
+  <text x="692" y="290" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">structural trouble</text>
+  <text x="817" y="277" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">legacy reasoning</text>
+  <text x="817" y="290" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="middle">from experience</text>
+  <line x1="40" y1="355" x2="880" y2="355" stroke="#999" stroke-width="1"/>
+  <text x="450" y="375" font-family="sans-serif" font-size="11" font-style="italic" fill="#1a1a2e" text-anchor="middle">The LLM absorbs the top row fully, the middle row partially, the bottom row barely.</text>
+  <text x="450" y="390" font-family="sans-serif" font-size="10" font-style="italic" fill="#555" text-anchor="middle">The artifact is produced. The walk the typing used to force may or may not still happen.</text>
+</svg>
+
 ---
 
 ## The Mirror at two scales
@@ -166,6 +246,92 @@ The coverage has a second derivation, parallel to the multiplicative one. The pa
 
 A reach-note is warranted. BTABoK names more working models than four. The IASA Get Started overview lists Outcome, Operating, Value, People, Engagement, Competency, and Maturity, surrounded by the Architecture Practice article, the Structured Canvas Approach, and the Topic Areas. This paper does not claim coverage across all of these. Outcome and Operating are macro framings the Engagement Model instantiates; they are not sites where the practicing architect does cadence work with FORCE at stake in the ordinary sense. Maturity is a measurement frame that runs across the others. Topic Areas are explicitly shallow by BTABoK's own design. The four working models this paper covers are the ones where the architect does work against a cadence with FORCE at stake, which is the condition under which the framework's atrophy dynamics apply. The zoom-out is one-of-many to four-of-many, selected by where the framework's equations have operative consequences.
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" style="max-width:900px;display:block;margin:1.5em auto;" role="img" aria-labelledby="cd-t cd-d">
+  <title id="cd-t">Multi-form FORCE for the architect</title>
+  <desc id="cd-d">A multiplicative composition diagram. At the top, the Cobb-Douglas formula states that the architect's FORCE is the product of five shared competency pillars and one specialization. Five pillar boxes span the upper row: Business Technology Strategy, Human Dynamics, Design, Quality Attributes, and IT Environment. A central composite node marked F-arch sits between the rows. Five lateral specialization boxes span the lower row in BIISS order: Business, Information, Infrastructure, Software, Solution. Each component carries a small LLM-substitution bar. Red indicates near-full substitution at the surface layer, amber indicates partial substitution at the middle layer, blue indicates near-zero substitution at the deep layer. Faint converging lines show all components feeding into the F-arch composite. A footer states that any component near zero collapses the product; specializations are additive across a team but multiplicative within any one architect.</desc>
+  <rect x="40" y="30" width="820" height="45" fill="#1a1a2e" fill-opacity="0.05" stroke="#1a1a2e" stroke-width="1" rx="4"/>
+  <text x="450" y="54" font-family="serif" font-size="14" font-style="italic" fill="#1a1a2e" text-anchor="middle">F_arch = (BTS &#183; HD &#183; Des &#183; QA &#183; ITE) &#215; Specialization_j</text>
+  <text x="450" y="70" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">Cobb-Douglas: every component enters multiplicatively; any component near zero collapses the product</text>
+  <text x="450" y="100" font-family="sans-serif" font-size="11" font-weight="700" fill="#1a1a2e" text-anchor="middle">Five shared competency pillars (every architect holds all five)</text>
+  <rect x="30" y="110" width="155" height="75" fill="#d4a017" fill-opacity="0.1" stroke="#d4a017" stroke-width="1.3" rx="4"/>
+  <text x="107" y="130" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Business Technology</text>
+  <text x="107" y="143" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Strategy</text>
+  <text x="107" y="160" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">middle-to-deep</text>
+  <rect x="45" y="170" width="124" height="6" fill="#d4a017" fill-opacity="0.5"/>
+  <text x="107" y="182" font-family="sans-serif" font-size="8" fill="#d4a017" text-anchor="middle">partial substitution</text>
+  <rect x="195" y="110" width="155" height="75" fill="#3a86ff" fill-opacity="0.1" stroke="#3a86ff" stroke-width="1.3" rx="4"/>
+  <text x="272" y="130" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Human Dynamics</text>
+  <text x="272" y="147" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">deep / relational</text>
+  <text x="272" y="160" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">conflict-bearing</text>
+  <rect x="210" y="170" width="31" height="6" fill="#3a86ff" fill-opacity="0.5"/>
+  <text x="272" y="182" font-family="sans-serif" font-size="8" fill="#3a86ff" text-anchor="middle">near-zero substitution</text>
+  <rect x="360" y="110" width="155" height="75" fill="#d4a017" fill-opacity="0.1" stroke="#d4a017" stroke-width="1.3" rx="4"/>
+  <text x="437" y="130" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Design</text>
+  <text x="437" y="147" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">views, viewpoints,</text>
+  <text x="437" y="160" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">trade-off articulation</text>
+  <rect x="375" y="170" width="124" height="6" fill="#d4a017" fill-opacity="0.5"/>
+  <text x="437" y="182" font-family="sans-serif" font-size="8" fill="#d4a017" text-anchor="middle">partial substitution</text>
+  <rect x="525" y="110" width="155" height="75" fill="#d4a017" fill-opacity="0.1" stroke="#d4a017" stroke-width="1.3" rx="4"/>
+  <text x="602" y="130" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Quality Attributes</text>
+  <text x="602" y="147" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">systemic properties,</text>
+  <text x="602" y="160" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">fitness for purpose</text>
+  <rect x="540" y="170" width="124" height="6" fill="#d4a017" fill-opacity="0.5"/>
+  <text x="602" y="182" font-family="sans-serif" font-size="8" fill="#d4a017" text-anchor="middle">partial substitution</text>
+  <rect x="690" y="110" width="155" height="75" fill="#d62828" fill-opacity="0.08" stroke="#d62828" stroke-width="1.3" rx="4"/>
+  <text x="767" y="130" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">IT Environment</text>
+  <text x="767" y="147" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">technical knowledge,</text>
+  <text x="767" y="160" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">tooling fluency</text>
+  <rect x="705" y="170" width="124" height="6" fill="#d62828" fill-opacity="0.5"/>
+  <text x="767" y="182" font-family="sans-serif" font-size="8" fill="#d62828" text-anchor="middle">high substitution</text>
+  <line x1="107" y1="185" x2="418" y2="248" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="272" y1="185" x2="432" y2="230" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="437" y1="185" x2="450" y2="223" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="602" y1="185" x2="468" y2="230" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="767" y1="185" x2="482" y2="248" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="450" cy="265" r="42" fill="#1a1a2e"/>
+  <text x="450" y="262" font-family="serif" font-size="18" font-style="italic" font-weight="700" fill="white" text-anchor="middle">F</text>
+  <text x="462" y="268" font-family="serif" font-size="10" font-style="italic" fill="white" text-anchor="start">arch</text>
+  <text x="450" y="285" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle">Cobb-Douglas</text>
+  <text x="450" y="296" font-family="sans-serif" font-size="8" fill="white" text-anchor="middle">composite</text>
+  <line x1="107" y1="350" x2="418" y2="282" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="272" y1="350" x2="432" y2="300" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="437" y1="350" x2="450" y2="307" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="602" y1="350" x2="468" y2="300" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="767" y1="350" x2="482" y2="282" stroke="#1a1a2e" stroke-width="0.6" opacity="0.4"/>
+  <text x="450" y="345" font-family="sans-serif" font-size="11" font-weight="700" fill="#1a1a2e" text-anchor="middle">Five BIISS specializations (one per architect; the team covers all five)</text>
+  <rect x="30" y="355" width="155" height="65" fill="#3a86ff" fill-opacity="0.1" stroke="#3a86ff" stroke-width="1.3" rx="4"/>
+  <text x="107" y="375" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Business</text>
+  <text x="107" y="392" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">domain-relational</text>
+  <rect x="45" y="405" width="31" height="6" fill="#3a86ff" fill-opacity="0.5"/>
+  <rect x="195" y="355" width="155" height="65" fill="#d4a017" fill-opacity="0.1" stroke="#d4a017" stroke-width="1.3" rx="4"/>
+  <text x="272" y="375" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Information</text>
+  <text x="272" y="392" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">data / schema</text>
+  <rect x="210" y="405" width="124" height="6" fill="#d4a017" fill-opacity="0.5"/>
+  <rect x="360" y="355" width="155" height="65" fill="#d4a017" fill-opacity="0.1" stroke="#d4a017" stroke-width="1.3" rx="4"/>
+  <text x="437" y="375" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Infrastructure</text>
+  <text x="437" y="392" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">platform / topology</text>
+  <rect x="375" y="405" width="124" height="6" fill="#d4a017" fill-opacity="0.5"/>
+  <rect x="525" y="355" width="155" height="65" fill="#d4a017" fill-opacity="0.1" stroke="#d4a017" stroke-width="1.3" rx="4"/>
+  <text x="602" y="375" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Software</text>
+  <text x="602" y="392" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">patterns / structure</text>
+  <rect x="540" y="405" width="124" height="6" fill="#d4a017" fill-opacity="0.5"/>
+  <rect x="690" y="355" width="155" height="65" fill="#d4a017" fill-opacity="0.1" stroke="#d4a017" stroke-width="1.3" rx="4"/>
+  <text x="767" y="375" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">Solution</text>
+  <text x="767" y="392" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">integration across</text>
+  <rect x="705" y="405" width="124" height="6" fill="#d4a017" fill-opacity="0.5"/>
+  <g transform="translate(30, 440)">
+    <text x="0" y="0" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e">LLM substitution:</text>
+    <rect x="110" y="-8" width="12" height="12" fill="#d62828" fill-opacity="0.5"/>
+    <text x="126" y="0" font-family="sans-serif" font-size="10" fill="#1a1a2e">high (surface)</text>
+    <rect x="225" y="-8" width="12" height="12" fill="#d4a017" fill-opacity="0.5"/>
+    <text x="241" y="0" font-family="sans-serif" font-size="10" fill="#1a1a2e">partial (middle)</text>
+    <rect x="345" y="-8" width="12" height="12" fill="#3a86ff" fill-opacity="0.5"/>
+    <text x="361" y="0" font-family="sans-serif" font-size="10" fill="#1a1a2e">near-zero (deep)</text>
+  </g>
+  <line x1="40" y1="455" x2="860" y2="455" stroke="#999" stroke-width="1"/>
+  <text x="450" y="472" font-family="sans-serif" font-size="10" font-style="italic" fill="#1a1a2e" text-anchor="middle">An architect without any one pillar does not function. Specializations are additive across a team; multiplicative within any one architect.</text>
+</svg>
+
 ---
 
 ## The cohort discontinuity under the CITA ladder
@@ -185,6 +351,66 @@ The break in the mentoring pipeline is therefore bidirectional. Seniors do not s
 A counter-argument deserves engagement. The LLM is not only an absorber of shared work; it could also serve as an amplifier of mentoring, producing more feedback at lower cost, enabling mentors to support more mentees, surfacing scenarios the mentor would not have surfaced alone. This argument is structurally true. It is the $\gamma \cdot E \cdot F$ term in the framework's Eq. 11 from the start: deliberate engagement compounds FORCE, multiplicatively with existing FORCE, above the tipping point. The counter-argument says the LLM can work this way in mentoring. It can. The framework's claim is that which mode dominates depends on the FORCE the mentee and mentor bring and on the specific discipline of the mentoring practice. Above the tipping point, with mentor and mentee both disciplined, the LLM is a mentoring multiplier. Below the tipping point, the LLM is a mentoring substitute, and the substitution produces artifacts-of-progress without progress.
 
 The CITA ladder's defense against the substitution risk has always been the requirement of mentor-signed demonstrations. That defense was calibrated against a world in which mentees could not produce credible artifacts without the FORCE the ladder required. The defense is not calibrated against a world in which artifacts-without-FORCE are a click away. The ladder requires redesign. Part Three proposes the specific redesign the amplification architecture operationalizes, and states what ASAP Studio will not do because the profession itself must do it.
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="100%" style="max-width:900px;display:block;margin:1.5em auto;" role="img" aria-labelledby="co-t co-d">
+  <title id="co-t">Cohort discontinuity under the CITA ladder</title>
+  <desc id="co-d">A trajectory chart showing four architect cohorts progressing across the six-level managed career path (Aspiring, Foundational, Associate, Professional, Distinguished, Chief) over four time points. Cohort A, pre-LLM, rises from Associate at time zero to Chief at time three, then retires. Cohort B, entering at time zero, plateaus at Professional. Cohort C, entering at time one, plateaus at Associate. Cohort D, entering at time two, stunts at Foundational. A dashed horizontal band near the top marks the Shaping-layer FORCE boundary that only the pre-LLM cohort attains. A footer states that Eq. 32 predicts each successive cohort's ceiling descends; the clock is Cohort A's retirement curve.</desc>
+  <defs>
+    <marker id="co-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect x="130" y="60" width="720" height="290" fill="none" stroke="#1a1a2e" stroke-width="1"/>
+  <line x1="130" y1="80" x2="850" y2="80" stroke="#eee" stroke-width="0.8"/>
+  <text x="120" y="83" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="end">Chief</text>
+  <line x1="130" y1="130" x2="850" y2="130" stroke="#eee" stroke-width="0.8"/>
+  <text x="120" y="133" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="end">Distinguished</text>
+  <line x1="130" y1="180" x2="850" y2="180" stroke="#eee" stroke-width="0.8"/>
+  <text x="120" y="183" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="end">Professional</text>
+  <line x1="130" y1="230" x2="850" y2="230" stroke="#eee" stroke-width="0.8"/>
+  <text x="120" y="233" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="end">Associate</text>
+  <line x1="130" y1="280" x2="850" y2="280" stroke="#eee" stroke-width="0.8"/>
+  <text x="120" y="283" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="end">Foundational</text>
+  <line x1="130" y1="330" x2="850" y2="330" stroke="#eee" stroke-width="0.8"/>
+  <text x="120" y="333" font-family="sans-serif" font-size="10" fill="#1a1a2e" text-anchor="end">Aspiring</text>
+  <text x="60" y="210" font-family="sans-serif" font-size="11" font-style="italic" fill="#1a1a2e" text-anchor="middle" transform="rotate(-90 60 210)">Managed career path</text>
+  <text x="200" y="370" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">t = 0</text>
+  <text x="200" y="382" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">pre-LLM</text>
+  <text x="370" y="370" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">t = 1</text>
+  <text x="370" y="382" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">early LLM</text>
+  <text x="540" y="370" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">t = 2</text>
+  <text x="540" y="382" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">cohort boundary</text>
+  <text x="710" y="370" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a1a2e" text-anchor="middle">t = 3</text>
+  <text x="710" y="382" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="middle">generational transition</text>
+  <rect x="130" y="80" width="720" height="50" fill="#3a86ff" fill-opacity="0.05"/>
+  <line x1="130" y1="80" x2="850" y2="80" stroke="#3a86ff" stroke-width="1.3" stroke-dasharray="6 3"/>
+  <text x="840" y="100" font-family="sans-serif" font-size="9" font-style="italic" fill="#3a86ff" text-anchor="end">Shaping-layer FORCE boundary</text>
+  <text x="840" y="112" font-family="sans-serif" font-size="9" font-style="italic" fill="#3a86ff" text-anchor="end">(deep layer, attained only pre-LLM)</text>
+  <path d="M 200 230 L 370 180 L 540 130 L 710 80" fill="none" stroke="#3a86ff" stroke-width="2.5"/>
+  <circle cx="200" cy="230" r="4" fill="#3a86ff"/>
+  <circle cx="370" cy="180" r="4" fill="#3a86ff"/>
+  <circle cx="540" cy="130" r="4" fill="#3a86ff"/>
+  <circle cx="710" cy="80" r="4" fill="#3a86ff"/>
+  <line x1="710" y1="80" x2="800" y2="80" stroke="#3a86ff" stroke-width="2" stroke-dasharray="4 2"/>
+  <line x1="800" y1="80" x2="830" y2="55" stroke="#555" stroke-width="1.3" marker-end="url(#co-arr)"/>
+  <text x="835" y="50" font-family="sans-serif" font-size="9" font-style="italic" fill="#555" text-anchor="start">retires</text>
+  <text x="210" y="222" font-family="sans-serif" font-size="9" font-weight="700" fill="#3a86ff">A: pre-LLM</text>
+  <path d="M 200 330 L 370 280 L 540 230 L 710 180" fill="none" stroke="#d4a017" stroke-width="2" stroke-dasharray="5 2"/>
+  <circle cx="200" cy="330" r="3.5" fill="#d4a017"/>
+  <circle cx="370" cy="280" r="3.5" fill="#d4a017"/>
+  <circle cx="540" cy="230" r="3.5" fill="#d4a017"/>
+  <circle cx="710" cy="180" r="3.5" fill="#d4a017"/>
+  <text x="720" y="175" font-family="sans-serif" font-size="9" font-weight="700" fill="#d4a017">B: plateau</text>
+  <path d="M 370 330 L 540 280 L 710 230" fill="none" stroke="#e67e22" stroke-width="2" stroke-dasharray="5 2"/>
+  <circle cx="370" cy="330" r="3.5" fill="#e67e22"/>
+  <circle cx="540" cy="280" r="3.5" fill="#e67e22"/>
+  <circle cx="710" cy="230" r="3.5" fill="#e67e22"/>
+  <text x="720" y="225" font-family="sans-serif" font-size="9" font-weight="700" fill="#e67e22">C: plateau</text>
+  <path d="M 540 330 L 710 295" fill="none" stroke="#d62828" stroke-width="2" stroke-dasharray="5 2"/>
+  <circle cx="540" cy="330" r="3.5" fill="#d62828"/>
+  <circle cx="710" cy="295" r="3.5" fill="#d62828"/>
+  <text x="720" y="295" font-family="sans-serif" font-size="9" font-weight="700" fill="#d62828">D: stunted</text>
+  <line x1="40" y1="405" x2="860" y2="405" stroke="#999" stroke-width="1"/>
+  <text x="450" y="423" font-family="sans-serif" font-size="11" font-style="italic" fill="#1a1a2e" text-anchor="middle">Eq. 32 predicts each successive cohort's FORCE ceiling descends. The clock is Cohort A's retirement curve.</text>
+</svg>
 
 ---
 
