@@ -120,7 +120,7 @@ jobs:
           # Publish: examples/global-corp as papers (depth ../../..)
           # The Global Corp Exemplar carries the literary-journal chrome
           # (frontispiece, topbar, colophon, paper-nav) so it matches the
-          # presentation of the A&A whitepaper parts it belongs alongside.
+          # presentation of the whitepaper parts it belongs alongside.
           # Folio slot is Nº IV · b (Citations is Nº IV · a).
           for md in docs/examples/global-corp/*.md; do
             [ -f "$md" ] && render_paper "$md" "../../.."

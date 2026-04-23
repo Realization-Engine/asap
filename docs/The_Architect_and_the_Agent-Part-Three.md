@@ -190,7 +190,7 @@ The window for choosing is finite. The framework gives the clock explicitly: the
 
 ## Research agenda
 
-The platform's existence creates an opportunity to empirically constrain the framework's scaling claim in the architecture-practice domain. The audit trail is the data infrastructure; the four-working-model coverage provides the FORCE-form decomposition; the CITA certification ladder and the six-level managed career path provide the cohort stratification; the zoom-out that distinguishes this paper from its predecessors provides the breadth the scaling test requires. The framework's predictions, stated at the general level in M&M and worked for architecture practice in Parts One and Two, become measurable at the platform-operation layer.
+The platform's existence creates an opportunity to empirically constrain the framework's scaling claim in the architecture-practice domain. The audit trail is the data infrastructure; the four-working-model coverage provides the FORCE-form decomposition; the CITA certification ladder and the six-level managed career path provide the cohort stratification; the zoom-out that distinguishes this paper from its predecessors provides the breadth the scaling test requires. The framework's predictions, stated at the general level in *The Multiplier and the Mirror* and worked for architecture practice in Parts One and Two, become measurable at the platform-operation layer.
 
 Seven predictions, each framed as a falsifiable claim and each measurable through the platform's audit trail over cohort-scale time.
 

@@ -22,7 +22,7 @@ Part One instantiated the **Multiplier-Mirror framework** (Folio Nº II) for arc
 
 ## The cascade
 
-The Multiplier and the Mirror describes seven reinforcing feedback loops in the coupled human-LLM system, each amplifying the atrophy dynamic, few with natural brakes, operating together as a cascade that pulls trajectories below the tipping point faster than any single loop in isolation. The cascade is not a speculative construct. Each loop is derived from equations in the main-line framework and formalized for the software engineer in M&M Part Two. The question this paper now asks is whether the cascade operates in architecture practice the way the framework predicts it should, with only parameters changing per FORCE-form. That is the scaling claim stated precisely. The seven loops below work the claim one loop at a time.
+The Multiplier and the Mirror describes seven reinforcing feedback loops in the coupled human-LLM system, each amplifying the atrophy dynamic, few with natural brakes, operating together as a cascade that pulls trajectories below the tipping point faster than any single loop in isolation. The cascade is not a speculative construct. Each loop is derived from equations in the main-line framework and formalized for the software engineer in the parent paper's Part Two. The question this paper now asks is whether the cascade operates in architecture practice the way the framework predicts it should, with only parameters changing per FORCE-form. That is the scaling claim stated precisely. The seven loops below work the claim one loop at a time.
 
 ### Loop 1. Atrophy, epistemic corruption, undetected architectural failures
 
