@@ -9,14 +9,14 @@ folio: "Nº IV · b"
 project: "ASAP"
 source: "https://github.com/Realization-Engine/asap"
 prev-url: "../../The_Architect_and_the_Agent-Part-Three.html"
-prev-title: "Part Three, The Practice Architecture"
+prev-title: "Part Three, The Amplification Architecture"
 ---
 
 ## Status
 
 **This document is a narrative design artifact, not a SpecChat spec collection.** The data it enumerates (personas, ASRs, ASDs, waivers, viewpoints, views, entities, contracts, invariants, metrics, and the rest) describes what a BTABOK-complete enterprise architecture looks like, but is not itself in a form that SpecChat validators can process.
 
-The actual spec collection derived from this narrative lives in the sibling SpecChat repository, at [`github.com/Realization-Engine/spec-chat/tree/main/docs/examples/global-corp/`](https://github.com/Realization-Engine/spec-chat/tree/main/docs/examples/global-corp/). The spec files are authoritative for all cross-references, counts, and IDs. This narrative remains as human-readable context and fiction backstory, and lives in the ASAP repository because *The Architect and the Agent* (folio Nº IV) treats it as the worked enterprise against which the ASAP practice architecture is derived. For background on the staging plan that produced the spec layout, see [SpecChat-BTABOK-Implementation-Plan.md](https://github.com/Realization-Engine/spec-chat/blob/main/docs/design-notes/btabok/SpecChat-BTABOK-Implementation-Plan.md) Section 7.3.
+The actual spec collection derived from this narrative lives in the sibling SpecChat repository, at [`github.com/Realization-Engine/spec-chat/tree/main/docs/examples/global-corp/`](https://github.com/Realization-Engine/spec-chat/tree/main/docs/examples/global-corp/). The spec files are authoritative for all cross-references, counts, and IDs. This narrative remains as human-readable context and fiction backstory, and lives in the ASAP repository because *The Architect and the Agent* (folio Nº IV) treats it as the worked enterprise against which ASAP Studio is derived. For background on the staging plan that produced the spec layout, see [SpecChat-BTABOK-Implementation-Plan.md](https://github.com/Realization-Engine/spec-chat/blob/main/docs/design-notes/btabok/SpecChat-BTABOK-Implementation-Plan.md) Section 7.3.
 
 Users looking to run SpecChat validators against Global Corp should point the tooling at the spec collection in the spec-chat repository linked above, not at this document.
 

@@ -30,7 +30,7 @@ The remaining categories (formal methods, mentoring and apprenticeship transmiss
 **Digest:** The parent framework. Establishes the general model of human capability under LLM amplification: output as multiplier times composite FORCE, the Mirror as a structured object with substance and presentation channels, the layered structure of FORCE, the atrophy equation, the tipping point and its hysteresis, the cohort discontinuity, the F→M transfer, the coupled phase portrait, the seven-loop cascade, the decision bottleneck, the erosion of competitive moats, the sovereignty question, the four futures. This paper cites parent-paper equations by number throughout; every equation reference (Eq. 1, 2, 3, 4, 4a, 6, 7, 7a, 9, 10, 11, 11a-c, 12, 12a, 12b, 13, 14, 14a, 15a/b, 16, 16a, 17, 18, 19, 20, 21, 22, 23, 24, 24a, 25, 26, 26a, 27, 28, 29, 30, 31, 32, 34, 36) is sourced from this document.
 
 **[1.2]** Landi, D. A. *Enquiry Into Specification as Meaningful Struggle.* Folio Nº III. Spec Chat project, 2026. `https://github.com/Realization-Engine/spec-chat`.
-**Digest:** The first companion memorandum. Narrows inside the Engagement Model of the body of knowledge to the specification medium, names SpecChat as the authored-commitment artifact the medium requires, identifies the developmental, medium, and practice questions, warns against cosmetic relocation, and introduces the practice-architecture boundary this paper zooms out from. This paper takes Enquiry's "realization engine" framing as given and extends the reach of the framework to Value, People, and Competency work.
+**Digest:** The first companion memorandum. Narrows inside the Engagement Model of BTABoK to the specification medium, names SpecChat as the authored-commitment artifact the medium requires, identifies the developmental, medium, and practice questions, warns against cosmetic relocation, and introduces the amplification-architecture boundary this paper zooms out from. This paper takes Enquiry's "realization engine" framing as given and extends the reach of the framework to Value, People, and Competency work.
 
 **[1.3]** Landi, D. A. *The Multiplier and the Mirror, Citations.* Folio Nº II · a. F-Star project, 2026.
 **Digest:** The adjacent-literature catalogue for the parent framework. This paper inherits these citations for the framework-general claims (Cobb-Douglas production, labor-market polarization, Matthew effect, stochastic-parrots / mirror, jagged-frontier studies, tacit-knowledge research, Ostrom commons). They are not duplicated here.
@@ -42,7 +42,7 @@ The remaining categories (formal methods, mentoring and apprenticeship transmiss
 
 ## 2. IASA BTABoK primary sources
 
-The body of knowledge this paper instantiates the framework against. Citations give the repository file path where the paper's primary-source claims can be verified.
+BTABoK, the body of knowledge this paper instantiates the framework against. Citations give the repository file path where the paper's primary-source claims can be verified.
 
 **[2.1]** IASA Global. *Business Technology Architecture Body of Knowledge (BTABoK).* `https://iasa-global.github.io/btabok/`.
 **Digest:** The authoritative source for all BTABoK claims in the paper. Repository mirror referenced during development: `E:/Archive/GitHub/dlandi/btabok`.
@@ -51,7 +51,7 @@ The body of knowledge this paper instantiates the framework against. Citations g
 **Digest:** Names the five competency pillars every architect shares (Business Technology Strategy, Human Dynamics, Design, Quality Attributes, IT Environment) and the five specializations BIISS (Business, Information, Infrastructure, Software, Solution) layered atop them. This paper cites the Manifesto as the primary authority on the pillar/specialization distinction.
 
 **[2.3]** IASA Global. *Get Started with the BTABoK.* `pages/top_menu/get_started_m.md`. By Paul Preiss.
-**Digest:** Enumerates the BTABoK's working models: Outcome, Operating, Value, People, Engagement, Competency, Maturity, surrounded by the Architecture Practice article, the Structured Canvas Approach, and the Topic Areas. This paper cites this page as the primary source for the reach-note that the platform's four-working-model coverage is a selection from a larger set.
+**Digest:** Enumerates the BTABoK's working models: Outcome, Operating, Value, People, Engagement, Competency, Maturity, surrounded by the Architecture Practice article, the Structured Canvas Approach, and the Topic Areas. This paper cites this page as the primary source for the reach-note that ASAP Studio's four-working-model coverage is a selection from a larger set.
 
 **[2.4]** IASA Global. *Architecture Practice.* `pages/engagement_model/architecture_practice.md`.
 **Digest:** Establishes the practice model for BT architecture, grounded in professional-body framing parallel to medicine, law, and accounting. Primary source for the practice-architecture concept the paper builds on.
@@ -118,7 +118,7 @@ The body of knowledge this paper instantiates the framework against. Citations g
 ## 3. The engineering artifacts
 
 **[3.1]** Landi, D. A. *Architect Support Agentic Platform (ASAP) Design Document.* `https://github.com/Realization-Engine/asap/blob/main/WIP/Architect-Support-Agentic-Platform.md`.
-**Digest:** The practice architecture this paper derives. Enumerates the ten primitives, the authority gradient, the AI-suitability bands and seven safeguard patterns, the asymmetric coverage across the four working models the platform covers, the ten platform components, the six-wave delivery plan with the product fork at end of Wave 4, the stop-lines, and the evaluation criteria. Where this paper states "the platform does X," the specific mechanism is described in this document.
+**Digest:** The amplification architecture this paper derives and the ASAP Studio implementation of it. Enumerates the ten primitives, the authority gradient, the AI-suitability bands and seven safeguard patterns, the asymmetric coverage across the four working models ASAP Studio covers, the ten platform components, the six-wave delivery plan with the product fork at end of Wave 4, the stop-lines, and the evaluation criteria. Where this paper states "ASAP Studio does X," the specific mechanism is described in this document.
 
 **[3.2]** Landi, D. A. *SpecChat and SpecLang.* `https://github.com/Realization-Engine/spec-chat`.
 **Digest:** The specification medium ASAP consumes as an upstream dependency. SpecLang is the specification language; SpecChat is the implementation including parser, validator, MCP server, canvas rendering, and the BTABOK profile. This paper refers to SpecChat throughout as the Engagement-Model inside view, and to ASAP as the zoomed-out view that surrounds it.
@@ -166,7 +166,7 @@ Supporting Loop 3 (tacit-knowledge transmission collapse) and Loop 7 (cohort dis
 
 ## 6. Automation, deskilling, and out-of-the-loop fragility
 
-Supporting the atrophy equation's architectural form and the platform's categorical exclusions on developmental work.
+Supporting the atrophy equation's architectural form and ASAP Studio's categorical exclusions on developmental work.
 
 **[6.1]** Bainbridge, L. "Ironies of Automation." *Automatica*, 19(6), 1983, pp. 775-779.
 **Digest:** The foundational statement that automation can create new vulnerabilities by removing the conditions under which operator skill forms. Direct theoretical support for the atrophy dynamic *The Multiplier and the Mirror* formalizes in Eq. 11 and this paper instantiates for architecture.
@@ -211,7 +211,7 @@ Supporting the research agenda in Part Three §21. The jagged-frontier and varia
 **Digest:** The single most important empirical source for the variable-multiplier and variance-amplification dynamics the research agenda proposes to test in the architecture domain. The jagged-frontier finding translates cleanly to architecture practice through the paper's working-model decomposition.
 
 **[9.2]** Peng, S., Kalliamvakou, E., Cihon, P., & Demirer, M. "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot." arXiv:2302.06590, 2023.
-**Digest:** The RCT methodology this paper uses (and which *The Multiplier and the Mirror* cites) is the prototype for the architecture-practice studies the research agenda proposes. Extending it to architectural tasks (decision authoring, governance review, principle-set revision) is an open empirical project the platform makes tractable.
+**Digest:** The RCT methodology this paper uses (and which *The Multiplier and the Mirror* cites) is the prototype for the architecture-practice studies the research agenda proposes. Extending it to architectural tasks (decision authoring, governance review, principle-set revision) is an open empirical project ASAP Studio makes tractable.
 
 ---
 

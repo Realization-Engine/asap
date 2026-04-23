@@ -6,7 +6,7 @@ An agentic support platform for the BTABoK practitioner across all four BTABoK m
 
 ## Status
 
-Pre-implementation. The platform's full architecture is captured in [WIP/Architect-Support-Agentic-Platform.md](WIP/Architect-Support-Agentic-Platform.md). The theoretical groundwork for an upcoming concept paper, *The Architect and the Agent*, is in [docs/notes/](docs/notes/).
+Pre-implementation. ASAP Studio's full architecture is captured in [WIP/Architect-Support-Agentic-Platform.md](WIP/Architect-Support-Agentic-Platform.md). The theoretical groundwork for an upcoming concept paper, *The Architect and the Agent*, is in [docs/notes/](docs/notes/).
 
 ## Relationship to SpecChat
 
