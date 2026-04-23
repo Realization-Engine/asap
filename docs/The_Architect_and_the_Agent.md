@@ -24,7 +24,47 @@ Like the Enquiry, this paper introduces the artifact through which its derivatio
 
 ## Terms of art
 
-**The Multiplier-Mirror framework** (Folio Nº II). The parent theory. FORCE, Mirror, the tipping point, the substance and presentation channels, the F→M transfer, and the atrophy equation are defined in *The Multiplier and the Mirror* and carried into this paper without redefinition.
+This section lists the load-bearing vocabulary of the paper. Vocabulary inherited from *The Multiplier and the Mirror* is listed first, with operational definitions sufficient for this paper; the authoritative derivations live in Folio Nº II. Constructs this paper introduces are listed next. Project and implementation terms close the section. **Capitalization is load-bearing**: Mirror and Multiplier, capitalized, refer to the formal objects the framework defines; lowercase "mirror" and "multiplier" are reserved for natural-language metaphor and do not carry the framework's load.
+
+### Inherited from the Multiplier-Mirror framework
+
+**The Multiplier-Mirror framework** (Folio Nº II). The parent theory of human capability under LLM amplification. Establishes that output scales as $O = M \times F$, operating through a structured reflective system whose substance and presentation channels can decouple, and whose long-term trajectory is governed by a tipping point.
+
+**Mirror** ($\mathbf{M}_{\text{mirror}}$). The structured, LLM-mediated reflective system through which the Multiplier operates. Takes articulated human cognition as input, re-represents it in inspectable external form, and returns the representation with high fluency and structure. Not a scalar; it contains reflective, presentation, and failure dimensions. Formalized in *The Multiplier and the Mirror* Part One.
+
+**Multiplier** ($M$). The aggregate substance-channel amplification factor, a projection from Mirror. Captures how much more productive a practitioner becomes when augmented by the tool. Where the distinction matters: $M_s(d)$ is the domain-specific substance projection, conditional on FORCE and domain; $M_p$ is the presentation projection, broadly high regardless of substance.
+
+**Substance channel and presentation channel.** The two projections from Mirror. The substance channel scales with the user's FORCE and the domain. The presentation channel (fluency, structure, professional tone, apparent confidence) runs broadly high regardless of substance. The asymmetry between them is the source of the framework's central epistemic risk.
+
+**Variable Multiplier** (Eqs. 2, 3). The claim that $M$ is not a single number. It varies across domains and task types: reliably high where work is formalizable, mechanical, and well-trained; unreliably low or negative where work is novel, judgment-laden, and relational. Load-bearing for the authority gradient in Part Three.
+
+**FORCE** ($F$). The composite human capability the Multiplier acts upon. A Cobb-Douglas product of capability components, such that any critical component approaching zero collapses the whole. Layered into surface, middle, and deep with different half-lives and different substitution profiles under the Multiplier.
+
+**Tipping point** ($F^*$). The threshold level of FORCE at which the dynamics flip. Above $F^*$ the Mirror functions as a studio mirror, a feedback instrument for correction and growth. Below $F^*$ it functions as Narcissus's pool: flattering, self-confirming, and eventually fatal to growth. The same tool; entirely different long-term trajectory, determined by what stands in front of it.
+
+**Epistemic gap** (Eq. 10). The structural distance between the presentation channel's output and the substance the work actually carries. Widens as $M_p$ grows relative to $M_s$, and is the mechanism by which practitioners become gradually more confident in gradually worse work.
+
+**F→M transfer** (Eqs. 26-31). The flow of practitioner FORCE into the model through fine-tuning, RLHF, evaluation data, and retrieval systems. Transfer efficiency decreases as the FORCE-layer deepens; the tacit residual stays with the practitioner while the model's ceiling is set by what was explicitly capturable.
+
+**Atrophy equation** (Eq. 11). The equation of motion for FORCE, contesting four pressures: struggle-based growth, deliberate-engagement growth, passive-reliance decay, and organizational de-investment. Its compounding term is what makes the tipping point a structural feature rather than a gradual slope.
+
+**Legibility crisis** (Eq. 18) **and Goodhart's trap** (Eq. 19). The presentation channel collapses signal-to-noise on capability assessment; the gaming room then opens on any measure the presentation channel can reach. Together these govern what institutions can still distinguish about their practitioners as $M_p$ grows.
+
+**Cohort discontinuity** (Eq. 32). The prediction that each successive cohort entering a profession under the Multiplier faces a lower FORCE ceiling, not through individual deficiency but through structural reduction in the conditions under which FORCE forms.
+
+### Introduced in this paper
+
+**Mirror at two scales.** The central extension of the Mirror object this paper makes. The architect not only uses the LLM as a reflective surface but is themselves a reflective surface for the enterprise. Individual substance discipline determines enterprise substance fidelity; the two scales couple.
+
+**Calendrical practice.** The frame for architecture as temporally organized work in which the practicing architect's week is better described as the set of cadences intersecting it than as a sequence of tasks from a list. The calendar is both the site where atrophy plays out and the natural measurement surface for trajectories.
+
+**Zoom-out and scaling claim.** The paper's method. *The Multiplier and the Mirror* and the Enquiry both stayed inside BTABoK's Engagement Model. This paper zooms out to Value, People, and Competency. The scaling claim is that the framework's equations hold across qualitatively distinct work types with only parameter change per FORCE-form.
+
+**Substance-preserved corpus.** Deliberately maintained architectural exemplars where the substance channel was disciplined, contributable to the demand side of the training-signal commons without the tacit absorption that happens by default. Global Corp is this paper's worked example.
+
+**Audit trail.** The per-feature, per-interaction record of whose FORCE produced which contribution to an architectural artifact. ASAP Studio's structural response to the legibility crisis: process observation captured at source, across all four working models, enabling the institution to distinguish work that carried practitioner substance from work that did not.
+
+### Project and implementation
 
 **Amplification architecture.** The discipline governing how agentic amplification is organized around a practitioner in a specific profession. A derived amplification architecture sets an authority gradient, AI-suitability bands and safeguard patterns, asymmetric coverage across a profession's working surfaces, a minimal agentic primitive set, and categorical stop-lines. This paper derives the amplification architecture for the enterprise architect.
 
@@ -32,7 +72,7 @@ Like the Enquiry, this paper introduces the artifact through which its derivatio
 
 **ASAP Studio.** The software that implements the amplification architecture this paper derives. Its components and six-wave delivery are enumerated in the sibling platform design document.
 
-**BTABoK.** The IASA Business Technology Architecture Body of Knowledge, the primary source for architecture-practice vocabulary used throughout this paper: five competency pillars, five BIISS specializations, five proficiency levels, four CITA certifications, the six-level managed career path, the six-stage ADLC, and the working models.
+**BTABoK.** The IASA Business Technology Architecture Body of Knowledge. The primary source for architecture-practice vocabulary used throughout this paper: five competency pillars, five BIISS specializations, five proficiency levels, four CITA certifications, the six-level managed career path, the six-stage ADLC, and the working models.
 
 The paper is in three parts.
 
