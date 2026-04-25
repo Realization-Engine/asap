@@ -301,7 +301,7 @@ The stop-lines are the work ASAP Studio categorically refuses to touch, regardle
 
 **Funding allocation.** Investment decisions shape the three-way resource competition itself. An AI-produced funding recommendation, even labeled advisory, shifts decision anchoring toward the recommendation, and the recommendation's provenance becomes opaque to the committee consuming it.
 
-**Principle authorship without human ownership.** Principles are the practice's 8-to-12 memorable guardrails (per `principles.md`). They are the institutional expression of the architect's judgment. An AI-authored principle carries no practitioner FORCE; a principle without FORCE does not guardrail.
+**Principle authorship without human ownership.** Principles are the practice's eight-to-twelve memorable guardrails (per `principles.md`). They are the institutional expression of the architect's judgment. An AI-authored principle carries no practitioner FORCE; a principle without FORCE does not guardrail.
 
 **Waiver approval without human authorization; decision close-out without documented reasoning.** These are Gate-tier in the authority gradient; the stop-line repeats the Gate requirement at ASAP Studio's refusal boundary. A waiver auto-approved by AI is not a waiver, and a decision closed without reasoning is not a decision.
 
@@ -598,4 +598,4 @@ The amplification architecture the framework requires has been derived. Its auth
 
 ASAP Studio is the implementation of the amplification architecture this paper derives. It is one response to the framework. It is not the only possible response. It is the response this paper derives and the worked instantiation the series now names.
 
-Build the FORCE. Preserve the channels through which the next cohort can receive what the current cohort still carries. The multiplication, and the scaling, take care of themselves.
+Build the FORCE. Preserve the channels through which the next cohort can receive what the current cohort still carries. The multiplication, and the scaling, take care of themselves. What in the architect's craft is worth carrying, the Mirror lets us see.

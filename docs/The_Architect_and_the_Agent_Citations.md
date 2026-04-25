@@ -26,6 +26,9 @@ The remaining categories (formal methods, mentoring and apprenticeship transmiss
 
 ## 1. The Realization Engine series
 
+**[1.0]** Landi, D. A. *Mirror as Cognitive Feedback Loop.* Folio Nº I. Realization Engine, 2026. `https://github.com/Realization-Engine/realization-engine.github.io`.
+**Digest:** The foundational inquiry the program presupposes. Names the Mirror as a cognitive feedback loop: a coupled system in which articulated cognition is reflected in inspectable external form, the practitioner responds to the reflection, and the iteration continues. Establishes the substance and presentation channels, the asymmetry between them, and the studio-mirror / Narcissus's-pool regime distinction that *The Multiplier and the Mirror* (Folio Nº II) formalizes downstream. This paper inherits the Mirror's foundational naming from Folio Nº I and instantiates the framework Folio Nº II builds on it.
+
 **[1.1]** Landi, D. A. *The Multiplier, Mirror and The Tipping Point.* Folio Nº II. F-Star project, 2026. `https://github.com/Realization-Engine/fstar`.
 **Digest:** The parent framework. Establishes the general model of human capability under LLM amplification: output as multiplier times composite FORCE, the Mirror as a structured object with substance and presentation channels, the layered structure of FORCE, the atrophy equation, the tipping point and its hysteresis, the cohort discontinuity, the F→M transfer, the coupled phase portrait, the seven-loop cascade, the decision bottleneck, the erosion of competitive moats, the sovereignty question, the four futures. This paper cites parent-paper equations by number throughout; every equation reference (Eq. 1, 2, 3, 4, 4a, 6, 7, 7a, 9, 10, 11, 11a-c, 12, 12a, 12b, 13, 14, 14a, 15a/b, 16, 16a, 17, 18, 19, 20, 21, 22, 23, 24, 24a, 25, 26, 26a, 27, 28, 29, 30, 31, 32, 34, 36) is sourced from this document.
 

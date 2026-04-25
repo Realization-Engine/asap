@@ -18,7 +18,7 @@ next-title: "Part Two, Ramifications in Architecture Practice"
 
 ## Where this fits
 
-The Multiplier and the Mirror establishes the **Multiplier-Mirror framework** (Folio Nº II), the general theory of human capability under large-language-model amplification. Output is written as $O = M \times F$, where $M$ is the Multiplier the model applies and $F$ is the practitioner's composite capability, called FORCE throughout. The paper's worked example is software engineering. Its scope note is explicit: any profession in which apprenticeship passes tacit knowledge through shared execution can be substituted for the engineer.
+*Mirror* (Folio Nº I) names the Mirror as a cognitive feedback loop and stands upstream of the formal apparatus the rest of the program develops. *The Multiplier and the Mirror* (Folio Nº II) formalizes the Mirror as a structured object and establishes the **Multiplier-Mirror framework**, the general theory of human capability under large-language-model amplification. Output is written as $O = M \times F$, where $M$ is the Multiplier the model applies and $F$ is the practitioner's composite capability, called FORCE throughout. The paper's worked example is software engineering. Its scope note is explicit: any profession in which apprenticeship passes tacit knowledge through shared execution can be substituted for the engineer.
 
 The Enquiry Into Specification as Meaningful Struggle is the framework's first substitution. It asks, for the software engineer specifically, whether specification work can carry the $\alpha \cdot S$ term (productive struggle) that implementation work historically carried, now that the Multiplier has absorbed most of implementation. It answers within one profession, at one load-bearing medium, and names SpecChat as the specification artifact through which the substitution becomes operable.
 
@@ -150,7 +150,7 @@ Two structural properties make architecture practice exceptionally exposed. The 
 
 ## The Mirror at two scales
 
-The Mirror in the framework is a relational structure between a single user and a single LLM. The substance channel scales with the user's FORCE, projected through a domain-specific amplification. The presentation channel runs broadly high, independent of substance. The epistemic gap between the two channels is the source of the atrophy dynamic's most dangerous failure mode.
+The Mirror in the framework is a cognitive feedback loop between a single user and a single LLM. The substance channel scales with the user's FORCE, projected through a domain-specific amplification. The presentation channel runs broadly high, independent of substance. The epistemic gap between the two channels is the source of the atrophy dynamic's most dangerous failure mode.
 
 Architecture practice exhibits the Mirror at a second scale that the framework has not treated. The architect does not only use the LLM as a reflective surface; the architect is themselves a reflective surface for the enterprise. The architect's core work is to hold a mirror to the organization: to articulate what the enterprise is, what it commits to, which stakeholder concerns it serves, which principles it upholds, which decisions it has made, which architectural bets are in flight. The central artifacts of architecture practice (architecturally significant requirements, decision records, principles, viewpoints, transition architectures, scorecards) are the surface on which the enterprise sees itself.
 
