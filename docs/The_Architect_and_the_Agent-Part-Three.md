@@ -87,6 +87,8 @@ Model coverage interacts with the gradient structurally. Enforce-tier features a
 
 ## The AI-suitability bands and the seven safeguard patterns
 
+### The four AI-suitability bands
+
 The authority gradient classifies *how hard* the machine presses on a decision. A second dimension classifies *whether the machine is a suitable proposer at all*, independent of how hard it would press. The platform names four bands on this second dimension: **AI-strong** (machine drafts the bulk of the work, named human confirms), **AI-backstage** (machine prepares material for a human role without surfacing in the primary relationship), **AI-proposer** (machine generates candidates, human adjudicates each), **AI-excluded** (categorical refusal regardless of capability).
 
 The bands derive from the atrophy equation (Eq. 11) read across FORCE-forms. The equation's passive-reliance term (βR) operates with different strengths depending on the FORCE-form the work touches. Some work has low atrophy risk because the FORCE it would atrophy is surface-layer and near-fully substitutable by the tool (mechanical cadence, retrieval over structured corpora, assembly of well-defined artifacts from typed inputs). Some work has maximum atrophy risk because it is precisely the work whose FORCE is middle-layer, judgment-laden, or relational, the layers where the LLM cannot produce substance and where the passive-reliance term is strongest (mentor judgment, performance rating, certification award, compensation-setting, hiring, firing, funding allocation). Each form of architectural work must be classified by the atrophy risk the LLM imposes on the FORCE-form it touches, and the band must be calibrated accordingly.
@@ -99,7 +101,11 @@ The bands derive from the atrophy equation (Eq. 11) read across FORCE-forms. The
 
 *AI-excluded* features are off-limits regardless of capability. Performance rating, mentor judgment on work products, certification grant, compensation allocation, hiring decisions, firing decisions, funding allocation. These are decisions the profession's own framing treats as constitutive of its discipline; they are also decisions where the atrophy risk per Eq. 11 is at its maximum. The platform produces no output that reads as a recommendation in any of these categories. The exclusion is encoded as a structural property of feature design, not as a runtime rule that could be overridden.
 
+### The seven safeguard patterns
+
 The seven safeguard patterns describe how AI and the practitioner share each piece of work once the band is fixed. *Draft-and-review*: AI drafts, named human owns the artifact. *Assemble-and-present*: AI gathers inputs, human interprets and acts. *Propose-and-confirm*: AI suggests an action, human confirms each one. *Monitor-and-alert*: AI watches signals, human decides response. *Coach-and-capture*: AI guides a practitioner-owned process, data stays with the practitioner. *Shadow-and-record*: AI observes, human acts, AI builds the audit trail. *Gate-and-block*: AI cannot proceed past a checkpoint without an explicit human signal.
+
+### The three orthogonal classifications
 
 Every feature ASAP Studio ships is classified by exactly one band and at least one pattern. The classification is a property of the feature's design. The bands calibrate atrophy defenses per FORCE-form; the patterns calibrate the interaction choreography; the authority gradient calibrates how hard the machine presses. These three classifications are orthogonal, and ASAP Studio's systemic property is that each feature declares all three.
 
