@@ -434,7 +434,7 @@ ASAP Studio softens but cannot eliminate the concentration. The competency-cover
 
 ## The SMB-architect
 
-The preceding sections treat the architect under amplification in the practice structure that has carried most of the profession's cases to date: a practitioner embedded in a large organization, alongside other architects, inside a firm with its own governance, legal, compliance, and delivery scaffolding. That structure is not the profession's default, though it is the structure the profession's formal literature has most fully theorized. The amplification architecture the paper derives is not confined to it.
+The preceding sections treat the architect under amplification in the practice structure the profession's formal literature has most fully theorized: a practitioner embedded in a large organization, alongside other architects, inside a firm with its own governance, legal, compliance, and delivery scaffolding. That structure does not match the demand-side default the profession faces. The amplification architecture the paper derives is not confined to it.
 
 ### The practice structure
 
@@ -446,7 +446,7 @@ The **small architecture firm** is a team of a few practitioners, typically thre
 
 The **solo contract architect** is one practitioner serving one or more client organizations directly, without a firm to buffer the work. Every scaffolding layer the enterprise-embedded architect inherits passively is either imported by the practitioner personally or absent. The practitioner is the moat, the stop-line, the audit partner, and the mentor, all at once.
 
-The enterprise-embedded structure is not the profession's center of mass empirically. BTABoK's primary author (Preiss [5.3]) names the case directly: approximately 42% of small businesses report lacking the resources and expertise to successfully deploy the technology they are already using (Goldman Sachs survey); 96% plan to adopt new technology including AI (US Chamber of Commerce); approximately 98% of companies in markets like Canada qualify as small and medium. The small and medium organization is the default. The architectural expertise gap those organizations face is a demand side the enterprise-embedded structure has not served at volume and is not organized to. The small-firm and solo structures are the structures that can.
+The demand-side default the profession faces is not the enterprise-embedded structure. BTABoK's primary author (Preiss [5.3]) names the case directly: approximately 42% of small businesses report lacking the resources and expertise to successfully deploy the technology they are already using (Goldman Sachs survey); 96% plan to adopt new technology including AI (US Chamber of Commerce); approximately 98% of companies in markets like Canada qualify as small and medium. The small and medium organization is the demographic default. The architectural expertise gap those organizations face is a demand side the enterprise-embedded structure has not served at volume and is not organized to. Preiss's argument is a call to redirect the profession toward that demand side, not a description of where practitioners are deployed today: enterprise-embedded structures still carry most of the formal pipeline. The small-firm and solo structures are the ones organized to serve the demand side Preiss names.
 
 ### Amplification at SMB scale
 
@@ -470,7 +470,7 @@ Part Three derives ASAP Studio's four-working-model selection (Engagement, Value
 
 ASAP Studio's six-wave delivery compresses at SMB scale but does not change shape. A small firm adopts Engagement-Model and Value-Model features alongside SpecChat in Waves 4-5, does not require the full enterprise Operating-Model integration Wave 6 gestures at, and uses the audit trail as both governance substrate and professional differentiator. A solo practitioner runs a lighter deployment: ASAP Studio as a personal calendrical practice instrument, the audit trail as the practitioner's portable FORCE record across clients, the Knowledge Layer as the practitioner's own substance-preserved corpus. The derivation is unchanged; the intensities shift.
 
-The amplification architecture does not specify a minimum scale at which it is realizable. Part Three's stop-lines, authority gradient, and safeguard patterns apply across the three practice structures with parameter changes rather than categorical exceptions. The SMB structures are not scaled-down enterprise architecture. They are architecture at the profession's numerical center of mass, with the Multiplier's pressures concentrated where the enterprise structures had scaffolding to diffuse them.
+The amplification architecture does not specify a minimum scale at which it is realizable. Part Three's stop-lines, authority gradient, and safeguard patterns apply across the three practice structures with parameter changes rather than categorical exceptions. The SMB structures are not scaled-down enterprise architecture. They are architecture at the demand-side default Preiss [5.3] names, with the Multiplier's pressures concentrated where the enterprise structures had scaffolding to diffuse them.
 
 ---
 
